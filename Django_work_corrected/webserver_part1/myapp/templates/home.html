@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html xmlns:display="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+
+.dropbtn {
+  background-color: green;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #3498db;
+  width: 0px;
+  height: 0px;
+  display:inline-block;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+#submit {color:white;}
+</style>
+<title>Views</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <h1 class="mt-2">Plotting </h1>
+                <hr class="mt-0 mb-4">
+                {% if file_name == False%}
+                <script type="text/javascript">
+                    function searchTextDownload(){
+                        console.log("Generate Button Clicked!");
+                        var user_id = document.getElementById("user_id").value
+                        console.log(user_id);
+                        $.ajax({
+                            url: '{% url "search_txt" %}',
+                            type: 'POST',
+                            data: {
+                                'user_id': user_id
+                            },
+                            dataType: 'json',
+                            success: function (data) {
+                                console.log(data)
+                                if(data.code == 1)
+                                    document.getElementById("log_generate_txt").innerHTML = "Seed file generated!";
+                                else
+                                    document.getElementById("log_generate_txt").innerHTML = "Failed to generate seed file!";
+                            }
+                        });
+                    }
+                </script>
+
+                <script type="text/javascript">
+
+                function faa_file_parser(url_link,idn){
+var ele_name="spin"+idn
+var ele_name1="down"+idn
+document.getElementById(ele_name1).innerHTML= "Downloading the faa file";
+document.getElementById(ele_name).className= "loader";
+$.get("{% url 'faafile_downloader_fc'  %}" +"?url_name="+url_link, function(data) {
+
+
+				var file_down=(data.file_name);
+
+document.getElementById(ele_name).className= "";
+document.getElementById(ele_name1).innerHTML= "";
+                        });
+
+                }
+
+                    function onClickFaaSearchBtn(){
+
+
+			console.log("Clicked FaaSearchButton");
+                        var user_id_faa = document.getElementById("user_id_faa").value
+			var ale="'No protein found'"
+			var btn = document.getElementById('search');
+        				btn.disabled = true;
+        				btn.innerText = 'Loading...'
+                        document.getElementById("search").style.cursor = "wait";
+                        $.ajax({
+                            url: '{% url "search_faa" %}',
+                            data: {
+                                'user_id': user_id_faa
+                            },
+                            dataType: 'json',
+                            success: function (data) {
+                                console.log(data)
+                                var str = "";
+                                data.datalist.map((item, idx) => {
+                                    if(data.hreflist[idx] != '')
+
+
+                                        str += '<ol><a style="display:inline"; href="javascript:void(0);'+'"'+' onclick=faa_file_parser("'+data.hreflist[idx]+'","'+idx+'");>'+ (idx+1) +' '+ item +'</a><p '+'id="'+'down'+idx+'"style="display:inline"></p><div id="'+'spin'+idx+'" class=""></div></ol>'
+
+                                    else
+                                        str += '<ol><a href="javascript:void(0);'+'"'+' onclick="alert('+ale+');"/>'+ (idx+1) +' '+ item +'</a></ol>'
+                                });
+                                   /*
+                                data.datalist.map((item, idx) => {
+
+                                    str += '<ol><a href="'+data.faa_url_list[idx]+'"/>'+ (idx+1) +' '+ item +'</a></ol>'
+                                });
+                                */
+                                if(data.datalist.length == 0){
+                                    str += '<li><a href="">No item founds</a></ol>'
+                                    console.log(str);
+
+				 }
+					btn.disabled = false;
+        				btn.innerText = 'Search'
+                        document.getElementById("search").style.cursor = "default";
+                                document.getElementById("faaDataList").innerHTML = str;
+                            }
+                        });
+
+
+                    }
+                </script>
+
+                <!--<form method="post" enctype="multipart/form-data" action="/searchFaaAndDownload/">{% csrf_token %}-->
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="user_id" class="col-form-label  requiredField">
+                                Faa file search<span class="asteriskField">*</span>
+                            </label>
+                            <div class="row">
+                                 <br>
+                    <!--<b> Input gz file:</b> <input id="seed_file" type="file" name="seed_input" required="">
+                    <br>-->
+                    <b> Input faa file:</b> <input id="seed_file1" type="file" name="seed_input1" required="">
+                    <br>
+
+                                <div class="col-6">
+                                    <br>
+
+                        <input type="text" name="user_id_faa" maxlength="100" class="textinput textInput form-control" required="" id="user_id_faa">
+                          </div>
+                                <div class="col-6">
+                                     <br>
+                                    <button id="search" class="btn btn-primary" value="Search" onclick="onClickFaaSearchBtn()">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--</form>-->
+                <hr class="mt-0 mb-4">
+                <ui id="faaDataList">
+                </ui>
+                {% load static %}
+                <script type="text/javascript" src="{% static 'js/Chart.min.js' %}"></script>
+                <script type="text/javascript">
+                var iter_index=1;
+                    function binaryToDataURL(inputArray){
+                        var base64 = btoa(String.fromCharCode.apply(null, inputArray));
+                        var uri = 'data:image/jpeg;base64,' + base64;
+                        return uri;
+                    }
+
+                    function onClickSubmitButton(){
+
+			alert("File for making plot is generated.Please click on draw graph")
+
+
+                    }
+
+                    function onClickDrawButton(){
+                        $.get('{% url "get_plot_image" %}', function(data) {
+                            var canvas=document.getElementById("myChart");
+                            var context=canvas.getContext('2d');
+                            console.log(data);
+                            var img = new Image();
+                            img.onload = function(){
+                                context.drawImage(img, 0, 0, context.canvas.width, context.canvas.height);
+                            };
+                            img.onerror = function(e){
+                                console.log('Error during loading image:', e);
+                            };
+                            img.src = "data:image/png;base64,"+ data;
+                        });
+                    }
+                    function onClickDrawButton_(){
+		var btn1 = document.getElementById('dg');
+        				btn1.disabled = true;
+        				btn1.innerText = 'Loading...'
+                        document.getElementById("dg1").style.cursor = "wait";
+                        document.getElementById("dg").style.cursor = "wait";
+                        document.getElementById("prev").style.cursor = "wait";
+                        document.getElementById("next").style.cursor = "wait";
+
+			  console.log("On Click Submit Button!");
+                        //var file = document.getElementById("seed_file").files[0];
+                        var file1 = document.getElementById("seed_file1").files[0];
+                        var flag = false;
+
+                        //if( file ) flag = true;
+                        //else flag = false;
+                        //console.log(file)
+                        console.log(file1)
+                        var email = document.getElementById("email").value;
+                        var flag_email = document.getElementById("send_email_or_not").value;
+                        var form_data = new FormData();
+                        //form_data.append("seed_input", file);
+                        form_data.append("seed_input1", file1);
+                        form_data.append('email',email);
+                        form_data.append('flag_email',flag_email);
+                        form_data.append('flag', flag);
+                        //console.log(file);
+                        console.log(email);
+
+
+                        /*
+                        $.ajax({
+                            url: '{% url "start_automation" %}',
+                            type: 'POST',
+                            data: form_data,
+                            dataType: 'json',
+                            success: function (data) {
+                                console.log(data);
+                            }
+                        });
+                        */
+
+                        fetch('/start_automation/', {method: "POST", body: form_data});
+                    /*
+                        $.get('{% url "line_chart_json" %}', function(data) {
+                            console.log(data);
+                            var ctx = $("#myChart").get(0).getContext("2d");
+                            new Chart(ctx, {
+                                type: 'line', data: data
+                            });
+                        });
+                     */
+                        $.get('{% url "get_plotly2d" %}', function(data) {
+                            console.log(data.plot);
+                            document.getElementById("plot_container").innerHTML = '<iframe src="/draw_plot2d_1" height="500" width="100%"></iframe>';
+				btn1.disabled = false;
+        				btn1.innerText = 'Draw Graph1 '
+                       document.getElementById("dg1").style.cursor = "default";
+                        document.getElementById("dg").style.cursor = "default";
+                        document.getElementById("prev").style.cursor = "default";
+                        document.getElementById("next").style.cursor = "default";
+                        });
+
+                    }
+
+                    function onClickDrawButton_1(){
+		var btn2 = document.getElementById('dg1');
+        				btn2.disabled = true;
+        				btn2.innerText = 'Loading...'
+			document.getElementById("down_art").style.display = "none";
+                        document.getElementById("dg1").style.cursor = "wait";
+                        document.getElementById("dg").style.cursor = "wait";
+                        document.getElementById("prev").style.cursor = "wait";
+                        document.getElementById("next").style.cursor = "wait";
+                    /*
+                        $.get('{% url "line_chart_json" %}', function(data) {
+                            console.log(data);
+                            var ctx = $("#myChart").get(0).getContext("2d");
+                            new Chart(ctx, {
+                                type: 'line', data: data
+                            });
+                        });
+                     */
+			arg=document.getElementById("iter").value
+			opt=document.getElementById("dg4").value
+                     $.get("{% url 'secondgraph'  %}" +"?search="+arg+"&opt="+opt, function(data) {
+
+                            console.log(data.plot);
+                            document.getElementById("plot_container").innerHTML = '<iframe  src="/draw_plot2d?plot_no=1" height="700" width="150%"></iframe>';
+				btn2.disabled = false;
+        				btn2.innerText = 'Draw Graph2 '
+			document.getElementById("down_art").style.display = "block";
+                        document.getElementById("dg1").style.cursor = "default";
+                        document.getElementById("dg").style.cursor = "default";
+                        document.getElementById("prev").style.cursor = "default";
+                        document.getElementById("next").style.cursor = "default";
+                        });
+
+
+
+                       document.getElementById("prev").style.display = "block";
+                       document.getElementById("next").style.display = "block";
+                        document.getElementById("file_no").innerText = "(Plotting graph "+ "1"+" of"+document.getElementById("iter").value+")";
+                    }
+
+
+function onClickDrawButton_2(){
+		var btn3 = document.getElementById('dg2');
+        				btn3.disabled = true;
+        				btn3.innerText = 'Loading...'
+			document.getElementById("down_art").style.display = "none";
+                        document.getElementById("dg1").style.cursor = "wait";
+                        document.getElementById("dg").style.cursor = "wait";
+                        document.getElementById("dg2").style.cursor = "wait";
+
+                    /*
+                        $.get('{% url "line_chart_json" %}', function(data) {
+                            console.log(data);
+                            var ctx = $("#myChart").get(0).getContext("2d");
+                            new Chart(ctx, {
+                                type: 'line', data: data
+                            });
+                        });
+                     */
+			            var arg1=1
+			            opt=document.getElementById("dg4").value
+                     $.get("{% url "third" %}" +"?opt="+opt, function(data) {
+
+                            console.log(data.plot);
+                            document.getElementById("plot_container").innerHTML = '<iframe src="/draw_plot2d_2" height="700" width="150%"></iframe>';
+				btn3.disabled = false;
+        				btn3.innerText = 'Draw Graph3 '
+			document.getElementById("down_art").style.display = "block";
+                        document.getElementById("dg1").style.cursor = "default";
+                        document.getElementById("dg").style.cursor = "default";
+                        document.getElementById("dg2").style.cursor = "default";
+
+                        });
+
+
+
+
+
+                    }
+
+
+                    function onClicknext(){
+                           if (iter_index<document.getElementById("iter").value)
+                           {
+                                iter_index=iter_index+1;
+                                document.getElementById("file_no").innerText = "(Plotting graph "+ iter_index+" of"+document.getElementById("iter").value+")";
+                                var btn2 = document.getElementById('dg1');
+        				        btn2.disabled = true;
+        				        btn2.innerText = 'Loading...'
+                               document.getElementById("dg1").style.cursor = "wait";
+                               document.getElementById("dg").style.cursor = "wait";
+                                document.getElementById("prev").style.cursor = "wait";
+                                document.getElementById("next").style.cursor = "wait";
+
+			                    arg=iter_index
+
+
+                                document.getElementById("plot_container").innerHTML = '<iframe src="/draw_plot2d?plot_no='+arg+'" height="700" width="150%"></iframe>';
+				                btn2.disabled = false;
+        				        btn2.innerText = 'Draw Graph2 '
+                                document.getElementById("dg1").style.cursor = "default";
+                                document.getElementById("dg").style.cursor = "default";
+                                document.getElementById("prev").style.cursor = "default";
+                                document.getElementById("next").style.cursor = "default";
+
+
+                       document.getElementById("prev").style.display = "block";
+                       document.getElementById("next").style.display = "block";
+
+                        }
+                        else
+                        {
+                        document.getElementById("next").disabled = true;
+                        }
+                    }
+                    function onClickprev(){
+                        if (iter_index>1)
+                           {
+                         iter_index=iter_index-1;
+                        document.getElementById("file_no").innerText = "(Plotting graph "+ iter_index+" of "+document.getElementById("iter").value+")";
+                         var btn2 = document.getElementById('dg1');
+        				        btn2.disabled = true;
+        				        btn2.innerText = 'Loading...'
+                               document.getElementById("dg1").style.cursor = "wait";
+                               document.getElementById("dg").style.cursor = "wait";
+                                document.getElementById("prev").style.cursor = "wait";
+                                document.getElementById("next").style.cursor = "wait";
+
+			                    arg=iter_index
+
+
+                                 document.getElementById("plot_container").innerHTML = '<iframe src="/draw_plot2d?plot_no='+arg+'" height="700" width="150%"></iframe>';
+				                btn2.disabled = false;
+        				        btn2.innerText = 'Draw Graph2 '
+                                document.getElementById("dg1").style.cursor = "default";
+                                document.getElementById("dg").style.cursor = "default";
+                                document.getElementById("prev").style.cursor = "default";
+                                document.getElementById("next").style.cursor = "default";
+
+
+                       document.getElementById("prev").style.display = "block";
+                       document.getElementById("next").style.display = "block";
+                        }
+                        else
+                        {
+                        document.getElementById("prev").disabled = true;
+                        }
+
+                    }
+                </script>
+                <div class="row">
+                    <form method="post" enctype="multipart/form-data" action="/start_automation/">{% csrf_token %}
+
+                    Send Email : <input name="send_email_or_not" type="checkbox" id="send_email_or_not"/>
+                    <br>
+                    Email : <input name="email" type="email" id="email"/>
+                    <br>
+                        Number of  iterations for plotting graph 2 : <input name="iteration" value="1" min="1" max="3" type="number" id="iter"/>
+                    <!--<input type="submit" class="btn btn-success" value="Submit">
+                    <a class="btn btn-success" id="submit" onclick="onClickSubmitButton()">Submit</a>-->
+                    <br>
+                        <br>
+                         <a >Input options for graph 2 and 3</a>
+                        <select id="dg4" name="options">
+                        <option value="None">None</option>
+                        <option value="1-2">1-2</option>
+                        <option value="4-5">4-5</option>
+                        </select>
+                    </form>
+                    <hr class="mt-0 mb-4">
+                </div>
+                <!--
+                <iframe height="500" width="1200" src="https://pfam.xfam.org/"></iframe>
+                -->
+                <hr class="mt-0 mb-4">
+                <div class="row">
+
+                    <button style="margin-right:20px;" class="btn btn-success" id="dg" onclick="onClickDrawButton_()"> Draw Graph1 </button>
+                    <button  style="margin-right:20px;" class="btn btn-success" id="dg1" onclick="onClickDrawButton_1()"> Draw Graph2 </button>
+                    <button  style="margin-right:20px;" class="btn btn-success" id="dg2" onclick="onClickDrawButton_2()"> Draw Graph3 </button>
+                    <a style="display: none; margin-right:10px;"  id="prev" href="javascript:onClickprev();" class="previous">&laquo; Previous</a>
+                    <label  id="file_no"></label>
+                    <a style="display: none;" id ="next" href="javascript:onClicknext();" class="next">Next &raquo;</a>
+                </div>
+                 <div class="row">
+                    <a style="display: none; "  id="down_art" href="{{ MEDIA_URL }}results.zip" >Click this link to download the result artifacts</a>
+                 </div>
+                <div class="row">
+                    <!--<canvas id="myChart" width="500" height="400"></canvas>-->
+                    <div class="container">
+                      <div class="row" style="position: relative; right: 9em;  top: 1em;">
+                        <div style ="position: relative; " id="plot_container" class="col-md-12">
+
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+                {% else %}
+                <a href="{{ MEDIA_URL }}hmm_output">Download Output File</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

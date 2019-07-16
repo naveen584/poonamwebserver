@@ -1,0 +1,583 @@
+1546086371492	geckodriver	INFO	geckodriver 0.19.1
+1546086371524	geckodriver	INFO	Listening on 127.0.0.1:44953
+1563120919284	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yqbBhUKzuerq"
+*** You are running in headless mode.
+1563120924941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563120924942	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563120924943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563120924943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563120936883	Marionette	INFO	Listening on port 33929
+1563120936961	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst__wBUKW/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst__wBUKW/, line 81: SyntaxError: '#' not followed by identifier
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563062407121%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst__wBUKW/, line 79: SyntaxError: '#' not followed by identifier
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3673, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oTXxYK/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1563121115481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1So18XGzHfhS"
+*** You are running in headless mode.
+1563121120095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563121120097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563121120097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563121120098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563121134607	Marionette	INFO	Listening on port 36179
+1563121134721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_cwaQ_K/, line 81: SyntaxError: '#' not followed by identifier
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563062407121%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_cwaQ_K/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_cwaQ_K/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_cwaQ_K/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_cwaQ_K/, line 79: SyntaxError: '#' not followed by identifier
+1563121859988	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lWZLBujQ7drK"
+*** You are running in headless mode.
+1563121864521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563121864523	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563121864526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563121864526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563121885458	Marionette	INFO	Listening on port 36917
+1563121885521	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_Ppfwjf/, line 81: SyntaxError: '#' not followed by identifier
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563062407121%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_Ppfwjf/, line 79: SyntaxError: '#' not followed by identifier
+1563123182922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CTQs63DjTVWe"
+*** You are running in headless mode.
+1563123191185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563123191185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563123191186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563123191186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563123210279	Marionette	INFO	Listening on port 33053
+1563123210342	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_7Vra1_/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_7Vra1_/, line 81: SyntaxError: '#' not followed by identifier
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563062407121%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_7Vra1_/, line 79: SyntaxError: '#' not followed by identifier
+1563226845038	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SFpOvgaHdDV9"
+*** You are running in headless mode.
+1563226863219	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563226863221	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563226863222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563226863222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563226896652	Marionette	INFO	Listening on port 43255
+1563226897229	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563206399419%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563226907336	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_BOqMM3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_BOqMM3/, line 79: SyntaxError: '#' not followed by identifier
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4896, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oTXxYK/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[Child 4960, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oTXxYK/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4891, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oTXxYK/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1563266834473	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.clJV0ppN7ZAf"
+*** You are running in headless mode.
+1563266836065	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563266836066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563266836072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563266836072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563266844148	Marionette	INFO	Listening on port 38445
+1563266844211	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_gnRm5o/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_gnRm5o/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_gnRm5o/, line 81: SyntaxError: '#' not followed by identifier
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563235208152%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_gnRm5o/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_gnRm5o/, line 79: SyntaxError: '#' not followed by identifier
+JavaScript error: , line 0: uncaught exception: null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1563269714280	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xhEDArvBh2II"
+*** You are running in headless mode.
+1563269718799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563269718800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563269718800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563269718801	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563269726929	Marionette	INFO	Listening on port 34983
+1563269727018	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_15jfbx/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_15jfbx/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_15jfbx/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_15jfbx/, line 81: SyntaxError: '#' not followed by identifier
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563235208152%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_15jfbx/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_15jfbx/, line 79: SyntaxError: '#' not followed by identifier
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+1563296875312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Z69mHmu6uQr2"
+*** You are running in headless mode.
+1563296878085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563296878086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563296878086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563296878087	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563296884341	Marionette	INFO	Listening on port 36887
+1563296884422	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563295124689%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_40IkXS/, line 79: SyntaxError: '#' not followed by identifier
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1563299489817	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GFAGUWuRt0Wp"
+*** You are running in headless mode.
+1563299496048	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563299496049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563299496049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563299496049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563299505951	Marionette	INFO	Listening on port 34709
+1563299505989	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 81: SyntaxError: '#' not followed by identifier
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563235275355%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_W0tgVj/, line 79: SyntaxError: '#' not followed by identifier
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: UnknownError
+JavaScript error: , line 0: uncaught exception: null
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8423, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oTXxYK/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1563309387548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9Af7GRnQVrJN"
+*** You are running in headless mode.
+1563309392609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563309392610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563309392610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563309392611	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563309402729	Marionette	INFO	Listening on port 38813
+1563309402801	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563270742497%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_PQaaD3/, line 81: SyntaxError: '#' not followed by identifier
+1563309885626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.D864UQGXGRyq"
+*** You are running in headless mode.
+1563309889805	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563309889806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563309889808	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563309889809	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563309907841	Marionette	INFO	Listening on port 39411
+1563309908050	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://topcons.cbr.su.se/, line 263: TypeError: document.getElementById(...) is null
+JavaScript error: http://topcons.cbr.su.se/pred/, line 81: SyntaxError: '#' not followed by identifier
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_9p1uJj/, line 81: SyntaxError: '#' not followed by identifier
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563270742497%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: http://topcons.cbr.su.se/pred/result/rst_9p1uJj/, line 79: SyntaxError: '#' not followed by identifier
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

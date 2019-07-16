@@ -1,0 +1,56 @@
+#please read it 
+
+
+
+see i have written 3 commnds here
+
+first one start from your script that take 2 input all_data1.csv and search.faa and no of files by default i choose 1
+ok
+
+after runningfirst commnd inside media folder that have our all files there will be another folder named it as data 
+
+you have to run second command that is
+
+tmhmm -m ../TMHMM2.0.model -f search_faa0.faa  (run this commnd insde data folder after moving "search_faa0.faa" file created by your commnd
+
+
+
+after running this commnd 
+
+you have to implement this script "plot2_maker.py" to 
+
+did u get
+ed 
+do you want me to run this manualude this script in views.py
+
+actually we should get another plot after implementing this
+
+there is already script is there u just have to implement thme in django browser
+on whivh button click this should work?
+
+
+you have to create new oneafter draw graph tht automatic take input and make plot
+
+
+
+drawgraph1  now it is drawgraph u cn rename to drawgraph1 
+
+you can add second button drawgraph2  tht run these 3 commnds taking file from media and data folder
+
+
+
+python plot2_input_generator.py all_data1.csv search.faa 1
+
+cd data/
+
+tmhmm -m ../TMHMM2.0.model -f search_faa0.faa 
+
+
+cd ..
+
+
+python plot2_maker.py
+
+
+
+

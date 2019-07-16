@@ -1,0 +1,1776 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  media/profile.hmm
+# target sequence database:        media/search.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PF00005_seed  [M=150]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    2.1e-60  202.0   0.2    5.1e-35  119.6   0.0    2.6  2  XP_458993.2     DEHA2D12056p [Debaryomyces hansenii CBS767]
+    6.4e-59  197.2   0.1    1.6e-28   98.6   0.0    2.6  2  XP_461110.2     DEHA2F17226p [Debaryomyces hansenii CBS767]
+    3.1e-56  188.5   2.2    2.4e-27   94.7   0.3    2.8  2  XP_002770899.1  DEHA2F25498p [Debaryomyces hansenii CBS767]
+    3.1e-53  178.8   1.2    1.3e-31  108.6   0.2    2.7  2  XP_002770395.1  DEHA2E02244p [Debaryomyces hansenii CBS767]
+    2.3e-50  169.5   7.0    1.7e-29  101.7   0.0    4.8  3  XP_456466.1     DEHA2A02838p [Debaryomyces hansenii CBS767]
+    9.9e-50  167.4   0.0    2.8e-24   84.8   0.0    2.8  2  XP_461670.1     DEHA2G02926p [Debaryomyces hansenii CBS767]
+    1.1e-49  167.2   0.1    1.1e-28   99.1   0.1    2.7  2  XP_460066.2     DEHA2E17622p [Debaryomyces hansenii CBS767]
+    3.9e-49  165.5   0.6      3e-32  110.6   0.0    3.4  2  XP_002770207.1  DEHA2C12782p [Debaryomyces hansenii CBS767]
+    1.9e-48  163.2   6.8    1.3e-30  105.3   0.1    3.9  2  XP_457028.2     DEHA2B01430p [Debaryomyces hansenii CBS767]
+    1.4e-47  160.4   3.0    9.4e-29   99.3   0.1    3.7  2  XP_002770127.1  DEHA2B14080p [Debaryomyces hansenii CBS767]
+    9.5e-47  157.7   3.6      3e-23   81.4   0.1    3.3  2  XP_461948.2     DEHA2G09218p [Debaryomyces hansenii CBS767]
+    1.1e-46  157.5   2.0    6.9e-30  103.0   0.0    3.5  2  XP_002777737.1  DEHA2G24728p [Debaryomyces hansenii CBS767]
+    1.2e-46  157.4   0.1    2.9e-24   84.7   0.0    4.5  2  XP_461401.1     DEHA2F24398p [Debaryomyces hansenii CBS767]
+    1.4e-45  153.9   0.0    4.6e-22   77.6   0.0    2.5  2  XP_002770836.1  DEHA2F16478p [Debaryomyces hansenii CBS767]
+    7.8e-45  151.5   0.0    1.6e-21   75.8   0.0    2.8  2  XP_456503.2     DEHA2A03696p [Debaryomyces hansenii CBS767]
+    8.3e-45  151.4   0.0    6.1e-21   73.9   0.0    3.6  3  XP_462188.1     DEHA2G14916p [Debaryomyces hansenii CBS767]
+      7e-44  148.4   0.0    3.6e-21   74.7   0.0    2.5  2  XP_002770140.1  DEHA2B16610p [Debaryomyces hansenii CBS767]
+    1.7e-43  147.1   0.0    6.2e-21   73.9   0.0    3.5  3  XP_462187.2     DEHA2G14894p [Debaryomyces hansenii CBS767]
+    2.1e-38  130.6   0.3    7.5e-38  128.8   0.0    2.0  1  XP_460333.2     DEHA2E23760p [Debaryomyces hansenii CBS767]
+    1.3e-37  128.0   0.0      3e-37  126.9   0.0    1.6  1  XP_457132.2     DEHA2B03894p [Debaryomyces hansenii CBS767]
+    7.6e-36  122.3   4.4    9.7e-17   60.3   0.0    4.4  2  XP_002770549.1  DEHA2G00330p [Debaryomyces hansenii CBS767]
+    3.5e-35  120.2   0.1    2.5e-17   62.2   0.0    3.1  2  XP_462080.1     DEHA2G12518p [Debaryomyces hansenii CBS767]
+    1.1e-32  112.0   0.2    5.9e-32  109.7   0.0    2.3  1  XP_457270.2     DEHA2B07172p [Debaryomyces hansenii CBS767]
+    1.1e-29  102.3   0.0    2.3e-29  101.3   0.0    1.5  1  XP_002770607.1  DEHA2G10472p [Debaryomyces hansenii CBS767]
+    1.3e-29  102.1   0.4    2.7e-29  101.1   0.4    1.5  1  XP_457846.2     DEHA2C03784p [Debaryomyces hansenii CBS767]
+    1.7e-22   79.0   0.1    2.6e-11   42.7   0.0    3.7  2  XP_461424.2     DEHA2F24948p [Debaryomyces hansenii CBS767]
+    1.3e-21   76.1   0.7      2e-21   75.5   0.1    1.7  1  XP_460368.2     DEHA2F00154p [Debaryomyces hansenii CBS767]
+      6e-21   74.0   0.0    1.9e-20   72.4   0.0    1.9  1  XP_458186.2     DEHA2C11770p [Debaryomyces hansenii CBS767]
+    1.4e-20   72.8   0.0    3.2e-20   71.6   0.0    1.7  1  XP_457332.2     DEHA2B08646p [Debaryomyces hansenii CBS767]
+    5.7e-17   61.1   0.6    1.9e-16   59.3   0.1    2.2  1  XP_460926.2     DEHA2F12936p [Debaryomyces hansenii CBS767]
+    8.4e-16   57.3   4.3    0.00038   19.4   0.0    7.2  6  XP_002770490.1  DEHA2E15620p [Debaryomyces hansenii CBS767]
+    2.4e-09   36.3   1.0      0.002   17.1   0.0    3.8  3  XP_458749.2     DEHA2D06688p [Debaryomyces hansenii CBS767]
+    6.2e-07   28.5   6.5    0.00073   18.5   0.7    4.2  3  XP_461288.2     DEHA2F21758p [Debaryomyces hansenii CBS767]
+    1.9e-05   23.6   0.9      0.045   12.7   0.0    3.8  2  XP_462191.1     DEHA2G14960p [Debaryomyces hansenii CBS767]
+    3.2e-05   22.9   0.4      0.003   16.5   0.0    3.3  3  XP_456823.2     DEHA2A11286p [Debaryomyces hansenii CBS767]
+     0.0001   21.3   0.4      0.017   14.1   0.1    2.6  2  XP_002770606.1  DEHA2G10252p [Debaryomyces hansenii CBS767]
+    0.00014   20.8   2.4    0.00044   19.2   2.3    2.1  1  XP_457511.2     DEHA2B13024p [Debaryomyces hansenii CBS767]
+    0.00019   20.4   0.9    0.00088   18.2   0.8    2.5  1  XP_459997.2     DEHA2E15972p [Debaryomyces hansenii CBS767]
+     0.0002   20.4   0.1     0.0002   20.4   0.1    5.0  1  XP_002770032.1  DEHA2A12606p [Debaryomyces hansenii CBS767]
+    0.00022   20.2   0.3    0.00066   18.6   0.0    2.1  1  XP_457395.2     DEHA2B10186p [Debaryomyces hansenii CBS767]
+    0.00048   19.1   0.3       0.52    9.3   0.0    2.9  2  XP_461055.1     DEHA2F16016p [Debaryomyces hansenii CBS767]
+    0.00065   18.7   0.3     0.0022   17.0   0.3    1.8  1  XP_462342.1     DEHA2G18436p [Debaryomyces hansenii CBS767]
+    0.00077   18.4   0.1    0.00083   18.3   0.1    1.4  1  XP_461891.1     DEHA2G07898p [Debaryomyces hansenii CBS767]
+     0.0011   17.9   0.2     0.0051   15.8   0.2    2.1  1  XP_461444.2     DEHA2F25388p [Debaryomyces hansenii CBS767]
+     0.0012   17.8   0.1     0.0012   17.8   0.1    3.6  2  XP_461620.1     DEHA2G01826p [Debaryomyces hansenii CBS767]
+     0.0014   17.6   0.0     0.0018   17.2   0.0    1.4  1  XP_460738.2     DEHA2F08646p [Debaryomyces hansenii CBS767]
+     0.0017   17.3   0.0     0.0027   16.7   0.0    1.7  1  XP_457123.1     DEHA2B03696p [Debaryomyces hansenii CBS767]
+     0.0025   16.8   0.0      0.021   13.8   0.0    2.7  1  XP_462417.2     DEHA2G20108p [Debaryomyces hansenii CBS767]
+      0.003   16.5   0.0      0.006   15.5   0.0    1.5  1  XP_002770608.1  DEHA2G10516p [Debaryomyces hansenii CBS767]
+     0.0044   16.0   8.7      0.097   11.6   0.1    4.0  3  XP_459081.2     DEHA2D13882p [Debaryomyces hansenii CBS767]
+      0.006   15.5   1.1      0.013   14.4   0.1    2.1  2  XP_458580.2     DEHA2D02574p [Debaryomyces hansenii CBS767]
+      0.007   15.3   0.1      0.057   12.4   0.0    2.2  2  XP_462574.1     DEHA2G23804p [Debaryomyces hansenii CBS767]
+     0.0074   15.2   2.0       0.15   11.0   0.3    3.0  2  XP_459513.2     DEHA2E04444p [Debaryomyces hansenii CBS767]
+     0.0077   15.2   0.1       0.11   11.4   0.1    2.3  2  XP_457473.2     DEHA2B11946p [Debaryomyces hansenii CBS767]
+     0.0079   15.1   0.1       0.02   13.8   0.0    1.9  1  XP_461219.2     DEHA2F20086p [Debaryomyces hansenii CBS767]
+     0.0093   14.9   0.1      0.035   13.0   0.1    2.0  1  XP_461623.2     DEHA2G01892p [Debaryomyces hansenii CBS767]
+  ------ inclusion threshold ------
+      0.013   14.4   2.3      0.061   12.3   0.2    2.4  2  XP_458439.2     DEHA2C17248p [Debaryomyces hansenii CBS767]
+      0.013   14.4   0.3      0.013   14.4   0.3    2.3  1  XP_002770842.1  DEHA2F17116p [Debaryomyces hansenii CBS767]
+      0.014   14.3   0.2      0.014   14.3   0.2    2.9  2  XP_002770519.1  DEHA2E21340p [Debaryomyces hansenii CBS767]
+      0.018   14.0   0.0      0.047   12.6   0.0    1.7  1  XP_460723.2     DEHA2F08338p [Debaryomyces hansenii CBS767]
+       0.02   13.9   1.6       0.27   10.1   0.1    3.3  2  XP_460568.2     DEHA2F04708p [Debaryomyces hansenii CBS767]
+       0.02   13.9   1.7      0.031   13.2   0.2    2.2  1  XP_002770353.1  DEHA2D18546p [Debaryomyces hansenii CBS767]
+      0.024   13.6   0.0      0.038   12.9   0.0    1.4  1  XP_457968.2     DEHA2C06490p [Debaryomyces hansenii CBS767]
+      0.024   13.6   0.0      0.038   12.9   0.0    1.5  1  XP_457265.1     DEHA2B07062p [Debaryomyces hansenii CBS767]
+      0.032   13.2   0.3      0.051   12.5   0.3    1.8  1  XP_002770249.1  DEHA2D02420p [Debaryomyces hansenii CBS767]
+      0.033   13.2   0.9        6.2    5.7   0.0    3.0  2  XP_459498.2     DEHA2E04026p [Debaryomyces hansenii CBS767]
+      0.038   13.0   0.1      0.068   12.1   0.1    1.5  1  XP_461270.2     DEHA2F21186p [Debaryomyces hansenii CBS767]
+      0.041   12.8   0.0       0.11   11.4   0.0    1.9  1  XP_461726.1     DEHA2G04136p [Debaryomyces hansenii CBS767]
+      0.044   12.7   0.2      0.085   11.8   0.2    1.6  1  XP_457323.2     DEHA2B08426p [Debaryomyces hansenii CBS767]
+      0.048   12.6   2.4       0.15   11.0   0.0    2.7  2  XP_459017.2     DEHA2D12540p [Debaryomyces hansenii CBS767]
+      0.048   12.6   0.3       0.12   11.4   0.3    1.7  1  XP_460687.2     DEHA2F07568p [Debaryomyces hansenii CBS767]
+      0.052   12.5   0.1      0.052   12.5   0.1    5.2  1  XP_456553.2     DEHA2A05324p [Debaryomyces hansenii CBS767]
+      0.056   12.4   0.1        1.7    7.6   0.0    2.6  2  XP_457422.2     DEHA2B10780p [Debaryomyces hansenii CBS767]
+      0.065   12.2   7.3        3.2    6.7   0.0    5.0  3  XP_461077.2     DEHA2F16522p [Debaryomyces hansenii CBS767]
+      0.067   12.1   0.1      0.067   12.1   0.1    2.7  1  XP_461277.2     DEHA2F21450p [Debaryomyces hansenii CBS767]
+      0.068   12.1   7.0       0.24   10.4   0.0    3.9  2  XP_460208.2     DEHA2E20834p [Debaryomyces hansenii CBS767]
+      0.069   12.1   0.0       0.15   11.0   0.0    1.5  1  XP_462112.2     DEHA2G13222p [Debaryomyces hansenii CBS767]
+      0.079   11.9   0.1      0.079   11.9   0.1    2.4  1  XP_002770450.1  DEHA2E09284p [Debaryomyces hansenii CBS767]
+       0.12   11.3   4.6      0.035   13.0   1.4    2.0  1  XP_460840.2     DEHA2F10934p [Debaryomyces hansenii CBS767]
+       0.19   10.7   0.0       0.19   10.7   0.0    7.0  3  XP_002770131.1  DEHA2B15136p [Debaryomyces hansenii CBS767]
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_458993.2  DEHA2D12056p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.9   0.0   1.1e-24   8.7e-23       1     149 [.     697     848 ..     697     849 .. 0.83
+   2 !  119.6   0.0   6.5e-37   5.1e-35       2     150 .]    1386    1546 ..    1385    1546 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 79.9 bits;  conditional E-value: 1.1e-24
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlke....qeleslrkeigvlpqepqlfpeltvrenlrleallqalddee 93 
+                   l+++++++keg++ +i+G++G+GK++Ll +l+g+++  +G++ l g  +++    ++++ l  ++++++q + l +++ +++n+ ++     ++++ 
+   XP_458993.2 697 LRDINIDFKEGKLNVIIGPTGSGKTSLLLALLGEMDLISGKVFLPGIISRDhlviDPRTGLTDSVAYCSQSAWLLNDS-IKNNITFSSP---FNQMR 789
+                   689***************************************8777777777888***********************.*****87732...22222 PP
+
+  PF00005_seed  94 sdee.....iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpt 149
+                   +d+      +++ l+ l+  +  +t +++++ +LSgGqkqrv+laral +++k +llD++ 
+   XP_458993.2 790 YDKVieacgLKRDLEILSAGD--ATEIGEKGITLSGGQKQRVSLARALYSNSKNVLLDDCL 848
+                   222223334555555555554..89999******************************975 PP
+
+  == domain 2  score: 119.6 bits;  conditional E-value: 6.5e-37
+  PF00005_seed    2 knvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesde 96  
+                    knv+++++++ k++ivG++GaGKSt++ ++ + l+p+ G+i +dg d++++ l+ lr+ i ++pq+p+lf ++ +r+nl       +++d++ d+
+   XP_458993.2 1386 KNVTFDVEPNNKIGIVGRTGAGKSTIITAFFRFLDPETGSIFIDGVDITKIGLRNLREAITIIPQDPTLFTGT-IRSNL-------DPFDQYTDA 1472
+                    8************************************************************************.*****.......8******** PP
+
+  PF00005_seed   97 eiekalsklglke....................ladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150 
+                    +i++al++++l+                     ++d+ v++++++LS+Gq+q ++l r+llk pk++llDE+ta
+   XP_458993.2 1473 QIYEALRRVNLISsdeltisgtnesgenqnkftDLDSAVSEGGNNLSQGQRQLMCLGRSLLKSPKVILLDEATA 1546
+                    *********************************9999999999*****************************97 PP
+
+>> XP_461110.2  DEHA2F17226p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.1   0.1   1.1e-29   8.9e-28       1     150 []     366     520 ..     366     520 .. 0.85
+   2 !   98.6   0.0     2e-30   1.6e-28       1     150 []    1010    1162 ..    1010    1162 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 96.1 bits;  conditional E-value: 1.1e-29
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal.....lqaldde 92 
+                   lk+vs++++  e+  i+G++G+GKSt+ +ll++ ++p++G i++dg ++++ ++++l  +i  ++q+p +f+e+ +r+n+ ++al     l+++ d 
+   XP_461110.2 366 LKDVSFSFRSKELNFIIGPSGSGKSTISQLLLNFYQPQSGIIRIDGLNISNLSKKWLTDNITLVQQDPIIFNES-IRNNIGMAALnrfvsLSDIPDL 461
+                   79************************************************************************.******9988777775555555 PP
+
+  PF00005_seed  93 esdeeiekalsklglkeladtvvkssp..ssLSgGqkqrvalarallkkpkllllDEpta 150
+                     ++ ++ al +  +++   + +++s   +sLSgGq qr+a+ara +++ ++l+lDE+ +
+   XP_461110.2 462 LIEDAATFALLTSVIDD-SRDGINTSVslTSLSGGQLQRIAIARAKISDTPILILDEALN 520
+                   55555555544444444.33334444456****************************976 PP
+
+  == domain 2  score: 98.6 bits;  conditional E-value: 2e-30
+  PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesd 95  
+                    l+ +s++++++e+vaivGe+G+GKSt+ +ll++l++ t  +i + + d+++ ++ +lr  i+v++q p++f+++ +++nl ++++ ++++    d
+   XP_461110.2 1010 LNSLSFHVNKNEIVAIVGESGSGKSTIGALLSRLYRVTDRSIFIANCDINKLDIDWLRDTISVVTQVPKFFEGT-IYDNLVYGMEKSKISPVGID 1103
+                    6899**********************************************************************.*****988764444444444 PP
+
+  PF00005_seed   96 ee.....iekalsklglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpta 150 
+                           i+ ++ +l+  e  +t++++++  s+SgGq qr+++aral++kpk+l++DE+t+
+   XP_461110.2 1104 HClklanIYSFIVSLP--EGIHTRLGEGQhCSISGGQLQRLSIARALIRKPKILIMDECTS 1162
+                    3344322444444443..4557788777779****************************96 PP
+
+>> XP_002770899.1  DEHA2F25498p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.6   0.1   1.4e-28   1.1e-26       1     149 [.      49     206 ..      49     207 .. 0.88
+   2 !   94.7   0.3   3.1e-29   2.4e-27       1     150 []     735     891 ..     735     891 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 92.6 bits;  conditional E-value: 1.4e-28
+    PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlke....qeleslrkeigvlpqepqlfpeltvrenlrleallqaldd 91 
+                     l++vs++l+ ge++ai+G +G+GK+tLl++l++ ++ ++ ++ + g  +++    +  ++ + + ++l q++ + p+ltv+e+l+++a l+ + +
+  XP_002770899.1  49 LDDVSFQLQSGELMAIMGGSGSGKTTLLNTLSQRTNIKNNDLSFSGS-VEYivgdKGNTKRKVRNAYLLQTDIFLPGLTVYETLMFQADLRLPPT 142
+                     79***********************************9999977743.444467777888888899*********************99655554 PP
+
+    PF00005_seed  92 eesdee...iekalsklglkeladtvvkssp...ssLSgGqkqrvalarallkkpkllllDEpt 149
+                     +++ e+   ++ +l++l+l+ ++d++++s     ++LSgG+++rv+la  ll+kp++l+lDEpt
+  XP_002770899.1 143 ATKYEKeelVNSLLTTLELQPIRDETISSFStysTNLSGGEQRRVSLAIQLLSKPSMLFLDEPT 206
+                     444444457******************7776899*****************************9 PP
+
+  == domain 2  score: 94.7 bits;  conditional E-value: 3.1e-29
+    PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkp.....teGeilldgkdlkeqeleslrkeigvlpqe.pqlfpeltvrenlrleal..lq 87 
+                     l+nvs ++k++++ +i+G++G GK+tLl+ l++ l++      +G+i+l+  d+++++ ++l++ +++++q+ ++l + ltvre+l+++a+  ++
+  XP_002770899.1 735 LNNVSAHFKANKVNVIMGPSGGGKTTLLNFLSNRLSKnskfrSNGNIRLN--DSQYITNKELSSISAYVSQQdNSLISSLTVRETLYYQAKlrIS 827
+                     79*******************************9999899999****888..78887789999999999988799************99887777 PP
+
+    PF00005_seed  88 alddeesdeeiekalsklglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpta 150
+                     + d+++  + i+++++++gl+++a+t v+s+  + +SgG+k+rv++a  ll+kpk+l+lDEpt+
+  XP_002770899.1 828 HEDHHKIPVIINTLIRTMGLNDCAETLVGSESvKGISGGEKRRVSIAIQLLSKPKILFLDEPTS 891
+                     8888888888******************99989*****************************96 PP
+
+>> XP_002770395.1  DEHA2E02244p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.4   0.0   3.9e-21     3e-19       1     147 [.     637     776 ..     637     779 .. 0.83
+   2 !  108.6   0.2   1.7e-33   1.3e-31       1     150 []    1301    1453 ..    1301    1453 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 68.4 bits;  conditional E-value: 3.9e-21
+    PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal..lqalddee 93 
+                     lk+++++ k+ge+  ivG+ G+GK++ l++l+g+l+       +d++d+++ +l  l++ +++++q p + + + v+en+ ++ +     ++++ 
+  XP_002770395.1 637 LKDIDFTAKKGELSCIVGKVGSGKTSFLSALLGQLDA------IDSTDVTKSPLIGLSGTVAYCSQSPWIMNAS-VKENITFGCRydEDFYQKAI 724
+                     799********************************94......69999**********************9999.*****999652222233333 PP
+
+    PF00005_seed  94 sdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDE 147
+                     +  ++   l+ l+  + ++t v++++ sLSgGqk r+alara+  +++++l+D+
+  XP_002770395.1 725 EACQLLPDLEILP--DGDETQVGEKGISLSGGQKARLALARAVYARADIYLFDD 776
+                     3333333333333..35699999******************************8 PP
+
+  == domain 2  score: 108.6 bits;  conditional E-value: 1.7e-33
+    PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddee 93  
+                      lk+++l++k++ek++ivG++GaGKS+L+ ++ +  +pt+G i +dgk++++  l  lr++++++pq++q f+++ +r+nl       ++ +++
+  XP_002770395.1 1301 LKDINLDIKPNEKIGIVGRTGAGKSSLALAIFRIIEPTSGFISIDGKNTSDLALYDLRSNLSIIPQDSQAFEGT-IRQNL-------DPLKKH 1385
+                      79************************************************************************.*****.......677777 PP
+
+    PF00005_seed   94 sdeeiekalsklglke...........ladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150 
+                       d+e+ +al+   l++            +  +v++++s++S Gq+q ++larall+ +k+l+lDE+ta
+  XP_002770395.1 1386 NDKELWEALELAHLNKhvlqldgnegdKLSCKVSEGGSNFSSGQRQLMCLARALLNTSKVLILDEATA 1453
+                      7777777777777776777777888777777778888*****************************97 PP
+
+>> XP_456466.1  DEHA2A02838p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.3         6   4.7e+02      85     103 ..     412     437 ..     329     509 .. 0.54
+   2 !   59.5   0.8   2.1e-18   1.7e-16       1     150 []     530     659 ..     530     659 .. 0.78
+   3 !  101.7   0.0   2.2e-31   1.7e-29       1     150 []     772    1004 ..     772    1004 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 6
+  PF00005_seed  85 l.......lqalddeesdeeiekals 103
+                   +        +++++e++d+e++ +++
+   XP_456466.1 412 HgrinltqAREFYTENMDDELKSVAQ 437
+                   02222222334444444444444433 PP
+
+  == domain 2  score: 59.5 bits;  conditional E-value: 2.1e-18
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee 97 
+                   l++ +l l +g+++++ G+nGaGKStL++++++     eG                +  ++++++ e++l+    +   l ++  + a d e + + 
+   XP_456466.1 530 LNKTNLRLIKGHRYGLCGRNGAGKSTLMRAISKGQL--EGF--------------PTPDQLKTCFVEHKLQGSE-ADMDL-VG--FIASDPELEGVG 606
+                   678899*************************98753..343..............3455666777776666666.34444.22..445555566666 PP
+
+  PF00005_seed  98 iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                    +++ + l  +++++++++++  sLSgG+k +++lara+l k+++lllDEpt+
+   XP_456466.1 607 RDEISKALLAVGFPQERLDQQVGSLSGGWKMKLELARAMLMKADVLLLDEPTN 659
+                   7777777777778889************************************8 PP
+
+  == domain 3  score: 101.7 bits;  conditional E-value: 2.2e-31
+  PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGei.....................lldgkdlke............qeleslrkeig 62  
+                    l+nvs +l+ +++vai+G+nGaGKStL+kll+ +l+p eG++                     +    + k+            +++e+l ke++
+   XP_456466.1  772 LENVSCSLSLSSRVAILGPNGAGKSTLIKLLTAELNPNEGKVekhpnlrigyiaqhalqhveqH----KEKTanqylqwryrfgDDREVLLKESR 862 
+                    78****************************************8888877776666666644431....111133446666677777777777777 PP
+
+  PF00005_seed   63 vlpqe..pqlfpeltvrenlrleal...............................................lqalddeesdee........iek 100 
+                    +++++  +q+ +e+ +++ +                                                    lq++dd+e+++e        ++ 
+   XP_456466.1  863 KISEDekEQMAKEIDIQDGR----GprtieavvgrqklkksyqyevkwkwwlpkynswvpkevllehgfnklLQKFDDHEASREglgyreltPTV 953 
+                    77777555555666566555....044569999***********************************************************99* PP
+
+  PF00005_seed  101 alsklglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpta 150 
+                    ++++++ ++l+ ++++  p  sLSgGq ++v++a a++++p ll+lDEpt+
+   XP_456466.1  954 IRKHFEGVGLDGDIADHTPmGSLSGGQLVKVVIAGAMWNNPHLLVLDEPTN 1004
+                    ***************99999******************************8 PP
+
+>> XP_461670.1  DEHA2G02926p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.6   0.0   1.4e-24   1.1e-22       2     150 .]      97     254 ..      96     254 .. 0.76
+   2 !   84.8   0.0   3.5e-26   2.8e-24       2     150 .]     411     543 ..     410     543 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 79.6 bits;  conditional E-value: 1.4e-24
+  PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkpteGeilld..gkdlke..........qeleslrkeigvlpqe..pqlfpeltvrenlrlea 84 
+                   ++ +++l+ g++++++GenG+GKStLl+ +a  + p  ++i +   +++             +e e   k+++ l +e   +               
+   XP_461670.1  97 QDSTIELNYGRRYGLLGENGCGKSTLLNSIAAREFPIPEHIDIYllNEPAAAtdfsaleyvvREAEAEMKRLEDLVEEiiIKD-------------- 179
+                   577899******************************99999554334444443333344444444555555555555533233.............. PP
+
+  PF00005_seed  85 l............lqalddeesdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                                + ++d  + +++++ +l+ lg ++    ++k++++ +SgG++ rvala+al+ kp+llllD+pta
+   XP_461670.1 180 GpenpaleglyekIDEMDPSTFESRAAIILTGLGFNG---VTIKKRTRDMSGGWRMRVALAKALFVKPTLLLLDDPTA 254
+                   1455555555555999999999************777...7777889*****************************97 PP
+
+  == domain 2  score: 84.8 bits;  conditional E-value: 3.5e-26
+  PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdeei 98 
+                   +n+++ +  +++va+vG+nG GKStLl+l+ g+l+p++G++           +++++ ++gv++q++  + +l  ++ l++     + +  + ++++
+   XP_461670.1 411 ENLDIGIDMDSRVALVGPNGIGKSTLLNLFQGKLQPQQGRV-----------IQHTHIKLGVYSQHSAEQLDL-TKNPLEFV----RDKFSHISQDF 491
+                   799999***********************************...........788***********8888888.56777644....66667778899 PP
+
+  PF00005_seed  99 ekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                   + ++++lg  +l+ + + s++++LS Gq++rv+ a + l++p+l+llDEpt+
+   XP_461670.1 492 QYWRQQLGRYGLTGEGQTSQMATLSEGQRSRVVFALLALEAPNLILLDEPTN 543
+                   99*************************************************8 PP
+
+>> XP_460066.2  DEHA2E17622p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.5   0.0   3.1e-20   2.5e-18       1     149 [.     656     790 ..     656     791 .. 0.88
+   2 !   99.1   0.1   1.4e-30   1.1e-28       1     150 []    1294    1451 ..    1294    1451 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 65.5 bits;  conditional E-value: 3.1e-20
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee 97 
+                   l++++++ ++g +  ivG+ G+GKS+L+++++g l +  G++             +l++++++++q p + +++ v+en+ ++ +  a + ++  + 
+   XP_460066.2 656 LSQINFESRKGNLDCIVGKVGSGKSSLIQAFLGDLYKLDGDV-------------RLHGKVAYVSQVPWIVNGT-VKENILFGHKYDAEFYQHVLKA 738
+                   6799**************************************.............899****************.*****98866555555555555 PP
+
+  PF00005_seed  98 iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpt 149
+                   ++  ++   l++ ++t v++++ sLSgGqk r++lara+  +++++llD+p 
+   XP_460066.2 739 CALTVDLSILPKGDKTEVGEKGISLSGGQKARLSLARAVYARADVYLLDDPL 790
+                   555555555555779************************************7 PP
+
+  == domain 2  score: 99.1 bits;  conditional E-value: 1.4e-30
+  PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesd 95  
+                    l+n++l++++ ekv+ivG++GaGKS+L  +l +  +  +G+i +d+ d++++ l+ lr++++++pq++q+f+++ +++nl+       ++d   +
+   XP_460066.2 1294 LRNIDLTINPREKVGIVGRTGAGKSSLTLALFRIIESFQGNISIDNVDTSSIGLSDLRHKLSIIPQDSQVFEGT-IKSNLD-------PTDVFTS 1380
+                    78************************************************************************.*****5.......4555555 PP
+
+  PF00005_seed   96 eeiekalsklglke................ladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150 
+                    ++i kal+   lk+                 +d ++++++s+LS Gq+q ++larall  + +l+lDE+ta
+   XP_460066.2 1381 DQIWKALELSHLKDhvlkmyeenedegvatALDVKLSEGGSNLSVGQRQLMCLARALLIPSHILVLDEATA 1451
+                    5555555555555555555566667778888888999999*****************************97 PP
+
+>> XP_002770207.1  DEHA2C12782p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.8   0.1     1e-15   8.1e-14       1     147 [.     643     777 ..     643     780 .. 0.75
+   2 !  110.6   0.0   3.9e-34     3e-32       1     150 []    1269    1436 ..    1269    1436 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 50.8 bits;  conditional E-value: 1e-15
+    PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal..lqalddee 93 
+                     l +++l++k++e v i G+ G+GKS+Ll++l+g +k ++ ++          + ++++     l  +p +++ + vr+n+ ++      ++++  
+  XP_002770207.1 643 LTDINLSIKQNEFVIITGSIGSGKSSLLAALSGFMKLENPSV---------GQVNIYDD--LLLCSDPWIQNAT-VRDNITFGKPydATRYNK-- 723
+                     679******************************998877777.........22233333..3455667777776.999998773222223333.. PP
+
+    PF00005_seed  94 sdee.....iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDE 147
+                              +e+ ++ l+  +   t +++++ +LSgGqk+r+ lara   +++++l+D+
+  XP_002770207.1 724 ---VisaccLEDDIKLLPARD--LTEIGERGITLSGGQKSRINLARASYADANIMLFDD 777
+                     ...234444777777777777..56678999***************************8 PP
+
+  == domain 2  score: 110.6 bits;  conditional E-value: 3.9e-34
+    PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddee 93  
+                      lkn+++++++gekv+i G++GaGKS+++ +l++l++  eG+i +dg ++ +  l  lr++++++pq+p lf+++ +r+nl       ++++e 
+  XP_002770207.1 1269 LKNLNFSVYPGEKVGICGRTGAGKSSIMTALYRLVELNEGSIVIDGLNVADMGLYDLRSKLSIIPQDPVLFQGT-IRKNL-------DPFNES 1353
+                      79************************************************************************.*****.......899999 PP
+
+    PF00005_seed   94 sdeeiekalsklglke..........................ladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150 
+                       de++ +al++ gl++                           +d+ v +++s++S G++q +alaral++++k+l+lDE+t+
+  XP_002770207.1 1354 TDEKLWDALRRSGLIDasqlsrikntkldqhrnigyeslhkfHLDQLVADDGSNFSLGERQLIALARALVRNSKILILDEATS 1436
+                      9999999999999999999999999999999999999999988899999999*****************************96 PP
+
+>> XP_457028.2  DEHA2B01430p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.8   0.3   7.1e-18   5.6e-16       1     147 [.     510     641 ..     510     644 .. 0.82
+   2 !  105.3   0.1   1.6e-32   1.3e-30       1     150 []    1145    1306 ..    1145    1306 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 57.8 bits;  conditional E-value: 7.1e-18
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee 97 
+                   l++++l+++++e v+i G  G+GKS+Ll++++g ++  +Gei+++               +  l   p +++e+ vren+ ++   +++d+e++++ 
+   XP_457028.2 510 LREINLSIRKNEFVVITGLIGSGKSSLLSAMSGFMRRSSGEINVN--------------GSLLLCGYPWVQNET-VRENILFG---CEYDEEKYKNV 588
+                   6789**************************************444..............344455557888888.*****998...56666666666 PP
+
+  PF00005_seed  98 .....iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDE 147
+                        +e  l+ l+  +  +t +++++ +LSgGqk r+ lara+  +++++llD+
+   XP_457028.2 589 iyacsLESDLEILPAGD--NTEIGERGITLSGGQKARINLARAVYADKDIVLLDD 641
+                   34444555555555555..9999*******************************8 PP
+
+  == domain 2  score: 105.3 bits;  conditional E-value: 1.6e-32
+  PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesd 95  
+                    lk+++l++k+ ek++i G++GaGKS+++ +l++l++ ++G+i +d+ d+++  l+ lr+ ++++pq+p lf+++ +r+nl       ++++e+sd
+   XP_457028.2 1145 LKDLNLDIKPTEKIGICGRTGAGKSSIMTALYRLSELESGKIMIDDVDISHLGLKDLRSCLSIIPQDPILFRGT-IRTNL-------DPFKEHSD 1231
+                    799***********************************************************************.*****.......89999999 PP
+
+  PF00005_seed   96 eeiekalsklglke....................ladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150 
+                    e + +al++ gl++                     +d+ v++++s++S G++q +a aral++++k+l+lDE+t+
+   XP_457028.2 1232 ETLWDALRRSGLIDdsrmkniqkqekendvlhkfHLDQGVEDEGSNFSLGERQLIAFARALVRDSKILILDEATS 1306
+                    99999999999999999999999999999988888888999999*****************************96 PP
+
+>> XP_002770127.1  DEHA2B14080p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2   0.7   5.5e-18   4.3e-16       3     147 ..     544     673 ..     542     676 .. 0.84
+   2 !   99.3   0.1   1.2e-30   9.4e-29       1     150 []    1178    1339 ..    1178    1339 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 5.5e-18
+    PF00005_seed   3 nvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee 97 
+                     +v+l++++ge v+i G  G+GKS+Ll++++gl++  +Ge+            ++  + i++   +p +++e+  +en+ ++  l++++ +e    
+  XP_002770127.1 544 DVDLTIEKGEFVVITGVIGSGKSSLLSAISGLMTRISGEV------------NVCGSLISC--GDPWIQNET-FKENILFGSDLKQNFYKEVVYA 623
+                     89**************************************............455556665..356777777.9999999977666666655444 PP
+
+    PF00005_seed  98 ..iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDE 147
+                       +e  ++ l+  +  +t +++++ +LSgGqk r+ lara+  +++++llD+
+  XP_002770127.1 624 csLESDMDILPAGD--KTEIGERGITLSGGQKARLNLARAVYANKDIILLDD 673
+                     44888888888777..99999******************************8 PP
+
+  == domain 2  score: 99.3 bits;  conditional E-value: 1.2e-30
+    PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddee 93  
+                      lk+++l++k  ek+++ G++GaGKS+++++l++l++  +G++ +dg+d+++  l+slr++++++pq+p lf+++ +r+nl       +++de+
+  XP_002770127.1 1178 LKDLNLNIKSMEKIGVCGRTGAGKSSIMMALYRLVELSSGSVVIDGTDISNLGLNSLRSRLSIIPQDPILFSGT-IRTNL-------DPFDEY 1262
+                      799***********************************************************************.*****.......8***** PP
+
+    PF00005_seed   94 sdeeiekalsklglke....................ladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150 
+                       d e+ +al++ gl++                     + + v+++++++S G++q +a aral+k+ ++l+lDE+t+
+  XP_002770127.1 1263 TDTELWDALRRAGLIDgskidsiqsedlksedlnmfHLFKQVSEDGTNFSLGERQLIAFARALVKRTRILILDEATS 1339
+                      ********************************99986666677889*****************************96 PP
+
+>> XP_461948.2  DEHA2G09218p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.4   0.1   3.8e-25     3e-23       2     150 .]     216     396 ..     215     396 .. 0.74
+   2 !   75.6   0.0   2.4e-23   1.9e-21       1     150 []     548     679 ..     548     679 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 81.4 bits;  conditional E-value: 3.8e-25
+  PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkpteGeilld..gkdlkeqeleslrkeigv.lpqepqlfpeltvrenlrleal.......... 85 
+                   ++ sl+l  g+++++vG+nG GKStLlk+l++ + +   +i++   +++++ ++++ l++ +   +  ++ l++e ++ e++ +  +          
+   XP_461948.2 216 SESSLTLAYGRRYGLVGQNGIGKSTLLKALSRRELNVPKHITILhvEQEIRGDDTSALQSVLDAdVWRKSLLQEEAKISERISEIEKlrtkfdeesn 312
+                   6789******************************998888866534555555444444444432133335555555566666544445566667777 PP
+
+  PF00005_seed  86 ......................lqalddeesdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                                         l+++++++++++++++l  lg ++   ++++  ++ +SgG++ r++laral+++p+llllDEp++
+   XP_461948.2 313 evikldneredldrhlqdvnekLYEMESDKAESRAAAILYGLGFTK---ETQHLATKLFSGGWRMRLSLARALFCEPDLLLLDEPSN 396
+                   7777777788888888888888888888888888889988888777...33344689****************************86 PP
+
+  == domain 2  score: 75.6 bits;  conditional E-value: 2.4e-23
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee 97 
+                   lknv+l+++ ++++a+ G nG+GK+tLlkll+ +l+pt+G +            +  r +ig++ q++    +lt          +++ +  +sdee
+   XP_461948.2 548 LKNVDLDVQMDSRIAFCGGNGTGKTTLLKLLMENLTPTSGFV-----------SRNGRLRIGYFAQHHVDAMDLTLSAVSW----MSQTFPGKSDEE 629
+                   79****************************************...........67899*********98888997555443....678999999999 PP
+
+  PF00005_seed  98 iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                     + l ++g+++   +   ++++ LSgGqk+rva a++ l++p +l+lDEp++
+   XP_461948.2 630 YRRHLGSFGITG---SLGLQKMELLSGGQKSRVAFAALCLNQPHILILDEPSN 679
+                   999999999888...333345699***************************86 PP
+
+>> XP_002777737.1  DEHA2G24728p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   0.6   1.8e-15   1.4e-13       1     147 [.     515     646 ..     515     649 .. 0.80
+   2 !  103.0   0.0   8.7e-32   6.9e-30       1     150 []    1120    1280 ..    1120    1280 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 1.8e-15
+    PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesd 95 
+                     lk+++l++++ e ++i G  G+GK++ l++l+g ++  +G+                ++ + ++ q   +++  t r+n+ ++       +e+ +
+  XP_002777737.1 515 LKDINLTIYKREFIVITGLIGSGKTSFLNALSGFMNRNSGTA-------------AINGTLLFCGQP-WIQNA-TLRDNIIFG-------SEYHS 587
+                     79***************************************9.............555677777776.55555.59****866.......44444 PP
+
+    PF00005_seed  96 eeiekalsklglke.......ladtvvksspssLSgGqkqrvalarallkkpkllllDE 147
+                     ++ e++++  +l+         ++t +++++ +LSgGqk rv lara+  +++++l+D+
+  XP_002777737.1 588 DRYERVIDACSLSSdinilsaGDKTEIGERGITLSGGQKARVNLARAVYADRDIILMDD 646
+                     4444444444444444455566799999999***************************8 PP
+
+  == domain 2  score: 103.0 bits;  conditional E-value: 8.7e-32
+    PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddee 93  
+                      l+n+++k++++ekv+i G++GaGKS+++ ++++l + +eG+i +dg+d++   l++lr++++++pq+p lf ++ +r+nl       ++++e 
+  XP_002777737.1 1120 LNNLNFKIRPNEKVGICGRTGAGKSSIMTCIYRLNEIQEGSICIDGTDISLLGLRELRSKLSIIPQDPVLFTGS-IRRNL-------DPFNEV 1204
+                      79************************************************************************.*****.......899999 PP
+
+    PF00005_seed   94 sdeeiekalsklglke...................ladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150 
+                      +d+ + +al k+gl++                    ++ +v++++ ++S G+kq ++ aral++++k+l+lDE+t+
+  XP_002777737.1 1205 DDKLLLDALMKVGLINmsemelmlssykfdsaskfHLNYTVEEDGINYSLGEKQLISFARALVRNSKILILDEATS 1280
+                      999999999999999999999999999999999997777778999*****************************96 PP
+
+>> XP_461401.1  DEHA2F24398p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.1   0.0   1.7e-19   1.3e-17       1     150 []     450     578 ..     450     578 .. 0.81
+   2 !   84.7   0.0   3.7e-26   2.9e-24       2     150 .]     691     931 ..     690     931 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 63.1 bits;  conditional E-value: 1.7e-19
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqe.pqlfpeltvrenlrleallqalddeesde 96 
+                   l++ ++ lk+++++++ G+nGaGKStL++++a+      G++  +g ++      + + +  +++++ +    ++tv++ +        l+d e   
+   XP_461401.1 450 LNKTQFRLKRNRRYGLCGPNGAGKSTLMRAIAN------GQV--EGFPT------QEECKTVYVEHDiDGTHADTTVAQFV--------LEDGEVGL 524
+                   67889**************************86......555..44444......44788899999988888888888887........45555555 PP
+
+  PF00005_seed  97 eiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                     e + +kl   ++ d+ +    +sLSgG+k ++alara+lk++++lllDEpt+
+   XP_461401.1 525 TEEVVKAKLTEFNFSDEMIAMPIQSLSGGWKMKLALARAVLKNADILLLDEPTN 578
+                   55666666666667778887888******************************8 PP
+
+  == domain 2  score: 84.7 bits;  conditional E-value: 3.7e-26
+  PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkpteGei.....................lldgkdlke........qeleslrkeigvlpqepq 69 
+                   ++++++++ ++++a++G+nGaGKStL+++l+g+l pteGe+                     +ld++++++        +++e +++ ++ + ++++
+   XP_461401.1 691 RDINFQCSLSSRIAVIGPNGAGKSTLINVLTGELLPTEGEVyvhencriayikqhafahidnHLDKTPSEYiqwrfqtgEDRETMDRASRQINEDDE 787
+                   689**************************************99999999888888888887777777777766666555555555555555555522 PP
+
+  PF00005_seed  70 lfpeltvrenlrleal.............................................................................lqal 89 
+                                  +                                                                                 
+   XP_461401.1 788 TSM------------NkifkiegtprriagiharrkfknsyeyecswmlgenigmknerwvpmmsvdnawlprgeimethsklvaevdmkealA--- 869
+                   222............0222222335567777888888888999*****9999999999999999999999999998666666644333333222... PP
+
+  PF00005_seed  90 ddeesdee.......iekalsklglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpta 150
+                                   +++ ++  + +l+++ v+ s  + LSgGqk++++la++ +++p l++lDEpt+
+   XP_461401.1 870 -------SgqfrpltRKEIEEHCAMLGLETELVSHSRiRGLSGGQKVKLVLAACTWQRPHLIVLDEPTN 931
+                   .......1445555544444445555566676666556******************************8 PP
+
+>> XP_002770836.1  DEHA2F16478p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.6   0.0   5.9e-24   4.6e-22       2     149 ..     174     332 ..     173     333 .. 0.93
+   2 !   73.9   0.0   7.8e-23   6.2e-21       1     150 []     877    1029 ..     877    1029 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 77.6 bits;  conditional E-value: 5.9e-24
+    PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkp....teGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqaldde 92 
+                     k ++  +++ge+++++G+ G+G+StLlk++a ++      +e +i +dg   k+  ++++r+ + +  +++++fp+ltv+++l+++a+++ ++++
+  XP_002770836.1 174 KSMDGIMRPGEVTVVLGRPGSGCSTLLKTIASHTYGfkigEESKISYDGLTPKD-IENQFRGDVVYSAETDTHFPHLTVGDTLEFAAKMRTPQNR 267
+                     66777789**********************9998888888********999999.8899*****************************9999998 PP
+
+    PF00005_seed  93 esdee.......iekalsklglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpt 149
+                        ++       ++ +++++gl+++++t+v+++  + +SgG+++rv++a++ l+ +++ ++D++t
+  XP_002770836.1 268 GNVDRetyakhmASVYMATYGLSHTRNTNVGDDFvRGVSGGERKRVSIAEVSLCGSNIQCWDNAT 332
+                     888888999999999***************99999****************************99 PP
+
+  == domain 2  score: 73.9 bits;  conditional E-value: 7.8e-23
+    PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkp..teGei.lldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal...lq 87  
+                      l++v+  +k+g+++a++G++GaGK+tLl++l+  ++    ++ +  ++g++l++    s++++ig+++q++ + p++tvre lr++a+     
+  XP_002770836.1  877 LNHVDGWVKPGQLTALMGSSGAGKTTLLNCLSERVTTgvISDGVrMVNGHSLDS----SFQRSIGYVQQQDLHLPTSTVREALRFSAQlrqPN 965 
+                      67788889**************************97655333332556777776....******************************44444 PP
+
+    PF00005_seed   88 alddeesdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpklll.lDEpta 150 
+                      +++++e+++ +e +++ l++   ad  v+  ++ L   q++r+ +   l+ kpklll lDEpt+
+  XP_002770836.1  966 SVTTKEKNDYVEYIIDLLDMYPYADALVGVAGEGLNVEQRKRLTIGVELVAKPKLLLfLDEPTS 1029
+                      5555666666********************************************87659***96 PP
+
+>> XP_456503.2  DEHA2A03696p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.7   0.0   1.8e-22   1.4e-20       2     149 ..     150     309 ..     149     310 .. 0.86
+   2 !   75.8   0.0     2e-23   1.6e-21       1     150 []     853    1004 ..     853    1004 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 72.7 bits;  conditional E-value: 1.8e-22
+  PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkp....teGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddees 94 
+                   +nv+   + ge+v ++G+ GaG+S+Llk++ g   +      G+i++dg   ke  l+ +++ + ++p+ + +fp+ltv+++lr+++ ++ ++ +  
+   XP_456503.2 150 SNVNGYARSGEMVLVLGRPGAGCSSLLKAIGGTDLDlftgVDGDIRYDGITQKE-MLKNFKNDLVYVPELDVHFPHLTVEQTLRFAIACKTPELRVN 245
+                   6899999***********************99877777779*******998888.9******************************99666666555 PP
+
+  PF00005_seed  95 dee.......iekalsk.lglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpt 149
+                   d+        ++++l++ +gl ++ +t+v+++  + +SgG+++rv++a+al+++ +++++D++t
+   XP_456503.2 246 DVSrekfidaLKEILATvFGLRHTYHTKVGNDFvRGVSGGERKRVSIAEALACRGSIYCWDNAT 309
+                   5553344443666665525788899999999889****************************99 PP
+
+  == domain 2  score: 75.8 bits;  conditional E-value: 2e-23
+  PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkp..teGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddee 93  
+                    l+ vs  + +g+++a++Ge+GaGK+tLl++la+  +     G++l++gk+l+     s+r++ g+++q++ + + ltvre+l ++a+l++++d++
+   XP_456503.2  853 LDSVSGYCIPGTLTALMGESGAGKTTLLNTLAQRIDVgvVTGDMLVNGKPLDL----SFRRRTGYVQQQDIHVESLTVRESLIFSARLRRINDAD 943 
+                    678999999**************************998899***********9....******************************66666666 PP
+
+  PF00005_seed   94 sdee...iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpklll.lDEpta 150 
+                    + e+   +ek+++ l++++ ad  v++ +  L   qk+++++   l+ kp+lll lDEpt+
+   XP_456503.2  944 DAEKldyVEKIIKALDMEDYADALVGKTGDGLNVEQKKKLSIGVELVAKPSLLLfLDEPTS 1004
+                    6666666******************************************9987549***96 PP
+
+>> XP_462188.1  DEHA2G14916p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.3   0.0   4.2e-21   3.3e-19       2     149 ..     148     307 ..     147     308 .. 0.85
+   2 ?    4.8   0.0      0.15        12      86     138 ..     436     484 ..     384     487 .. 0.65
+   3 !   73.9   0.0   7.8e-23   6.1e-21       1     150 []     841     993 ..     841     993 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 68.3 bits;  conditional E-value: 4.2e-21
+  PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkp....teGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddees 94 
+                   k ++  +++ge+++++G+ GaG+St lk++a ++      ++  + +dg   k + ++++r+ + ++ +++++fp+ltv+++l+++a+l+ ++++ +
+   XP_462188.1 148 KPMDGLIRPGEVTVVLGRPGAGCSTFLKTIAAHTYGftidKNSVLSYDGLTPK-DIIKHFRGDVVYCAETESHFPQLTVGQTLEFAAKLRTPQNRPE 243
+                   66677799**********************99987544423333344444444.59********************************777777777 PP
+
+  PF00005_seed  95 dee........iekalsklglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpt 149
+                    +          + +++++gl+++++t+v+++  + +SgG+++rv++a++ l+ ++l ++D+ t
+   XP_462188.1 244 GVSreeyaehlTKVVMATYGLSHTKNTKVGNDFiRGVSGGERKRVSIAEVALSFASLQCWDNST 307
+                   7666677777889999*************99999***************************987 PP
+
+  == domain 2  score: 4.8 bits;  conditional E-value: 0.15
+  PF00005_seed  86 lqalddeesdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallk 138
+                   l + d+ee+ +++++a+++ + ++l+      sp+++S+G++++  + r +++
+   XP_462188.1 436 LNKTDNEERLQQFKDAHNTKQSNHLR----PASPYTVSYGMQVKYIIKRNIMR 484
+                   23333333333344444333333333....3566*************999987 PP
+
+  == domain 3  score: 73.9 bits;  conditional E-value: 7.8e-23
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkp...teGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddees 94 
+                   l+ v+  +k+g+++a++G +GaGK+tLl++l+  l+    t+G   ++g++l+     s++++ig+++q++ + +++tvre l ++a+l+++++  +
+   XP_462188.1 841 LNSVDGWVKPGQVTALMGASGAGKTTLLNALSDRLTSgviTSGVRMVNGHELDA----SFQRSIGYVQQQDLHLQTSTVREALTFSAYLRQPKSVPK 933
+                   57788889*************************997655555555777777777....9***********99999999**********776666666 PP
+
+  PF00005_seed  95 dee...iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpklll.lDEpta 150
+                   +e+   ++ +++ l++++  d vv+ s++ L   q++r+ +   l+ kpkll+ lDEpt+
+   XP_462188.1 934 SEKdsyVDYIIRLLEMEKYSDAVVGVSGEGLNVEQRKRLTIGVELVAKPKLLVfLDEPTS 993
+                   555566********************************************98659***96 PP
+
+>> XP_002770140.1  DEHA2B16610p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.7   0.0   4.5e-23   3.6e-21       1     149 [.     178     337 ..     178     338 .. 0.93
+   2 !   71.4   0.0   4.9e-22   3.8e-20       1     150 []     884    1036 ..     884    1036 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 74.7 bits;  conditional E-value: 4.5e-23
+    PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkp....teGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqaldd 91 
+                     lk ++  +++ge+++++G+ G+G+StLlk+++ ++      +e +i +dg   k+  ++  r+ + +  +++ +fp+l+v+++l+++a+l+ +++
+  XP_002770140.1 178 LKSMDAIMRPGEVTVVLGRPGSGCSTLLKTISSHTYGfqvgEESKISYDGMTPKD-IERLHRGDVVYSAETDVHFPQLSVGDTLEFAARLRTPQN 271
+                     567778899***********************9999888889*******999999.677889999999999******************999999 PP
+
+    PF00005_seed  92 eesdee.......iekalsklglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpt 149
+                     +   ++       ++ +++++gl+++++t+v+++  + +SgG+++rv++a++ l+ +++ ++D++t
+  XP_002770140.1 272 RGNVDRetyakhmASVYMATYGLSHTRNTKVGNDFvRGVSGGERKRVSIAEVSLSGANIQCWDNAT 337
+                     8888778999999999***************99999****************************99 PP
+
+  == domain 2  score: 71.4 bits;  conditional E-value: 4.9e-22
+    PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGei.....lldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal... 85  
+                      l++v+  +k+g+++a++G++GaGK+tLl++l+  ++   G i      ++g++l+     s++++ig+ +q++ + +++tvre  +++a+   
+  XP_002770140.1  884 LDHVDGWVKPGQLTALMGSSGAGKTTLLNCLSERVTT--GIIsdgvrMVNGHSLDG----SFQRSIGYAQQQDLHLSTSTVREAFKFSAYlrq 970 
+                      67888899*************************9975..66633333566777777....************99999999**********555 PP
+
+    PF00005_seed   86 lqalddeesdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpklll.lDEpta 150 
+                        +++++e+d+ +e +++ l++++ ad  v+  ++ L   q++r+ +   l+ kpklll lDEpt+
+  XP_002770140.1  971 PNSISKKEKDRYVEYIIDLLEMNNYADALVGVAGEGLNVEQRKRLTIGVELVAKPKLLLfLDEPTS 1036
+                      555566666666********************************************87659***96 PP
+
+>> XP_462187.2  DEHA2G14894p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.4   0.0     4e-21   3.1e-19       2     149 ..     168     327 ..     167     328 .. 0.87
+   2 ?   -0.3   0.0       5.9   4.7e+02      86     138 ..     456     504 ..     409     507 .. 0.63
+   3 !   73.9   0.0   7.9e-23   6.2e-21       1     150 []     861    1013 ..     861    1013 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 68.4 bits;  conditional E-value: 4e-21
+  PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkp...teGei.lldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddees 94 
+                   k ++  +++ge+++++G+ GaG+St lk+++ +++    +++++  +dg + + + ++++r+ + ++ +++++fp+ltv+++l+++a+l+ ++++ +
+   XP_462187.2 168 KPMDGLIRPGEVTVVLGRPGAGCSTFLKTISSNTHGftvAKDSVlSYDGLKPN-DIIKHFRGDVVYCAETESHFPQLTVGQTLDFAAKLRTPQNRPE 263
+                   66677799*************************99877766666234455555.59********************************777777777 PP
+
+  PF00005_seed  95 dee........iekalsklglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpt 149
+                    +          + +++++gl+++++t+v+++  + +SgG+++rv++a++ l+ ++l ++D+ t
+   XP_462187.2 264 GVSreeyaahmTKVIMATYGLSHTRNTKVGNDFiRGVSGGERKRVSIAEVALSFASLQCWDNST 327
+                   6666677777888999*************99999***************************987 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 5.9
+  PF00005_seed  86 lqalddeesdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallk 138
+                   l + d+ee+ +++++a+++ + ++l+      sp+++S+G +++  + r +++
+   XP_462187.2 456 LNKTDNEERLQQFKDAHNTKQSNHLR----PASPYTVSYGLQVKYIMGRNIMR 504
+                   23333333333333333333333322....3456********99998888876 PP
+
+  == domain 3  score: 73.9 bits;  conditional E-value: 7.9e-23
+  PF00005_seed    1 lknvslklkegekvaivGenGaGKStLlkllagllkp...teGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqaldde 92  
+                    l+ v+  +k+g+++a++G +GaGK+tLl++l+  l+    t+G   ++g++l+     s++++ig+++q++ + +++tvre l ++a+l+++++ 
+   XP_462187.2  861 LNSVDGWVKPGQVTALMGASGAGKTTLLNALSDRLTSgviTSGVRMVNGHELDA----SFQRSIGYVQQQDLHLQTSTVREALTFSAYLRQPKSV 951 
+                    57788889*************************997655555555777777777....9***********99999999**********7766666 PP
+
+  PF00005_seed   93 esdee...iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpklll.lDEpta 150 
+                     ++e+   ++ +++ l++++  d vv+ s++ L   q++r+ +   l+ kpkll+ lDEpt+
+   XP_462187.2  952 PKSEKdsyVDYIIRLLEMEKYSDAVVGVSGEGLNVEQRKRLTIGVELVAKPKLLVfLDEPTS 1013
+                    66555566********************************************98659***96 PP
+
+>> XP_460333.2  DEHA2E23760p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.8   0.0   9.6e-40   7.5e-38       3     150 .]     474     624 ..     473     624 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 128.8 bits;  conditional E-value: 9.6e-40
+  PF00005_seed   3 nvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee.. 97 
+                   +++l++ +ge v +vG++G+GKS++ +ll++ ++pteG+i+++++++k+ +l+++r+++g+++qep lf+++ +r+n+ ++ ++ +++de +++   
+   XP_460333.2 474 ELNLTITKGEHVCFVGPSGSGKSSISQLLLRFYDPTEGTITVNNHNIKDLNLNFYRSQVGYVQQEPLLFSGT-IRDNIVFG-RMDSNEDEIKEASil 568
+                   689*********************************************************************.*****988.455555555555588 PP
+
+  PF00005_seed  98 ..iekalsklglkeladtvvkssp...ssLSgGqkqrvalarallkkpkllllDEpta 150
+                     ++k+++++++k   dtv++ s+   ++LSgGqkqrv+lar+l+kkp++l+lDE+t+
+   XP_460333.2 569 snAYKFIEEFPDKF--DTVIGPSTsgaAQLSGGQKQRVSLARTLIKKPDILILDEATS 624
+                   88*********999..77776666678*****************************96 PP
+
+>> XP_457132.2  DEHA2B03894p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  126.9   0.0   3.8e-39     3e-37       1     150 []     454     603 ..     454     603 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 126.9 bits;  conditional E-value: 3.8e-39
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal...lqalddees 94 
+                   l+n s+++ +gek+aivG++G+GKSt+l+l+ + ++ ++G+i +dg+d+++ + eslr++ig++pq++ lf+++ + en+r+++l    ++++++ +
+   XP_457132.2 454 LQNASFTIPAGEKIAIVGPSGSGKSTILRLIFRFYDVESGKIFIDGQDISKVTVESLRRSIGIVPQDTPLFNDT-ILENIRYGRLdatDKEIHEMID 549
+                   799***********************************************************************.******9966666777777777 PP
+
+  PF00005_seed  95 deeiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                   +++++k+++  ++    +t+v++++  +SgG+kqr+a+ar+llk++++ l+DE+t+
+   XP_457132.2 550 KVQLTKLIEDSPNGV--NTIVGERGMMISGGEKQRLAIARLLLKRAPITLFDEATS 603
+                   777777777777666..9************************************96 PP
+
+>> XP_002770549.1  DEHA2G00330p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.4   2.7   8.1e-17   6.3e-15       4     150 .]      57     288 ..      54     288 .. 0.62
+   2 !   60.3   0.0   1.2e-18   9.7e-17       1     150 []     474     610 ..     474     610 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 54.4 bits;  conditional E-value: 8.1e-17
+    PF00005_seed   4 vslklkegekvaivGenGaGKStLlkllagllkp.teGei..............................................lldgkdlke 51 
+                      +l+l +g  +++vG nG+GK+tLlk++ ++       +i                                                       
+  XP_002770549.1  57 TDLQLFAGIHYGLVGGNGTGKTTLLKCIGNKIITgFPSNIrslyveqlvsgleleltvieavinsdkertnlvrcakaleealgsgD-------- 143
+                     67999***********************98887654555566666777777777777777766665555554433333333333330........ PP
+
+    PF00005_seed  52 qeleslrkeigvlpqepqlfpeltvrenlrleal...........................................................lq 87 
+                           + ei+ ++++ ql+++++         +                                                           + 
+  XP_002770549.1 144 ------DTEIAQCFHKIQLDNQKR---------EfedaqktamersgargavarkilnnkedelrqieklaleepngshkiklvemvqdllneMN 223
+                     ......333333333333333333.........02222223334566666666666666666666666666667677777777666555555533 PP
+
+    PF00005_seed  88 alddeesdee.....iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                     +    +++ee     ++++ls lg   ++++ ++ + + LSgG+++rv+la all kp++lllDEpt+
+  XP_002770549.1 224 EKLAIYDNEEvivsnVHAILSGLG---FTNEMQGGRLKDLSGGWRVRVSLASALLIKPDVLLLDEPTN 288
+                     333333333366444555555555...6667776667******************************8 PP
+
+  == domain 2  score: 60.3 bits;  conditional E-value: 1.2e-18
+    PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqe..pqlfpeltvrenlrleallqalddee 93 
+                     l +vsl +++  ++ai+G nG GKStL+k+l+g l pt+G ++              +++i+ ++q+  +++ +  t +++      ++ l ++ 
+  XP_002770549.1 474 LTKVSLGVSQRARIAILGANGYGKSTLMKILTGDLLPTSGVVQ-----------WPGNAKISLFSQHnaEEVLNSCTPETTP-----VSLLLNKC 552
+                     6789**************************************4...........4457888888888654555555433332.....55666777 PP
+
+    PF00005_seed  94 sdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallkk.pkllllDEpta 150
+                      +++ ++a+++lg  +++ +v  ss   LSgG+  rvala  ++   p +l+lDEpt+
+  XP_002770549.1 553 PNKKESDARAHLGGFGIRGNVSISSLDVLSGGELARVALALHIFDSvPHVLFLDEPTN 610
+                     77777788889999999999998999**************998865499********8 PP
+
+>> XP_462080.1  DEHA2G12518p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.2   0.0   3.1e-19   2.5e-17       9     149 ..     101     249 ..      99     250 .. 0.87
+   2 !   52.5   0.1   3.1e-16   2.4e-14       7     150 .]     373     495 ..     368     495 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 62.2 bits;  conditional E-value: 3.1e-19
+  PF00005_seed   9 kegekvaivGenGaGKStLlkllagllkpteGei...........lldgkdlkeqeleslrkeigvl..pqepqlfpeltvrenlrleallqaldde 92 
+                   ++g+++++vG nG GKSt lk+lag+ kp  G+            +++g +l++  +++l+  i+ +  pq     p+  v+++++   +     + 
+   XP_462080.1 101 RPGQVLGLVGTNGIGKSTALKILAGKQKPNLGRYddppdwevilkHFRGSELQNYFTKVLEDDIKAIikPQYVDNIPRALVKSKVKHV-EGILQAKL 196
+                   58****************************************************9999999999988334556666666699999744.44444555 PP
+
+  PF00005_seed  93 esdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpt 149
+                   e++++ + +l+ l+l +++d+ v    ++LSgG+ qr al ++ +++++++++DEp+
+   XP_462080.1 197 ERKDQWDYILNILELRGVLDRDV----ANLSGGELQRFALGMTCVQEANVYMFDEPS 249
+                   66777999*********999999....*****************************7 PP
+
+  == domain 2  score: 52.5 bits;  conditional E-value: 3.1e-16
+  PF00005_seed   7 klkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqe.pqlfpeltvrenlrleallqalddeesdee.ieka 101
+                   ++  +e+++++GenG+GK+t +kllag  kp++G              ++++ ++++ pq+ +  fp++ vr+       ++++       +  +++
+   XP_462080.1 373 DFTNSEILVMMGENGTGKTTFCKLLAGAIKPDNGL-------------QIPKLNVSMKPQKiAPKFPGT-VRQLF-----FKKIRASFLHPQfQTDV 450
+                   67899*****************************6.............478899999999977777877.77654.....33444444444435688 PP
+
+  PF00005_seed 102 lsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                   ++ l+++++ d+ v    ++LSgG+ qrva++ +l   ++++l+DEp+a
+   XP_462080.1 451 VKPLKIDDIIDQEV----QTLSGGELQRVAIVLSLGMPADIYLIDEPSA 495
+                   89999999888888....*****************************75 PP
+
+>> XP_457270.2  DEHA2B07172p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.7   0.0   7.6e-34   5.9e-32       2     150 .]     496     650 ..     495     650 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 109.7 bits;  conditional E-value: 7.6e-34
+  PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlke.qeleslrkeigvlpqepqlfpeltvrenlrleal........lqal 89 
+                   ++ s+++ +++++ iv ++G+GKSt+++ll++ ++  +Geil+ g+++++ q +   r+ ig+++qep l +++ + en+ ++++        ++++
+   XP_457270.2 496 NECSFNIPASSTTCIVAPSGCGKSTVASLLLRSYNINSGEILIGGRNINNfQVRDLRRSIIGIVQQEPVLLSGT-ILENIVYGLTpsqisqmtMEDV 591
+                   6789**********************************************89999999999*************.********99777777777777 PP
+
+  PF00005_seed  90 ddeesdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                   + +++++ +++++ +l++ +  +t+++s+++sLSgGqkqrva+aral+kkp++l+lDE+t+
+   XP_457270.2 592 KFAARQANCHDFIMSLPDGY--ETIIGSRGASLSGGQKQRVAIARALIKKPSILILDEATS 650
+                   77777777999999999988..*************************************96 PP
+
+>> XP_002770607.1  DEHA2G10472p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.3   0.0   2.9e-31   2.3e-29       1     150 []     401     553 ..     401     553 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 101.3 bits;  conditional E-value: 2.9e-31
+    PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkp..teGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal...lqald 90 
+                     l+nv   +++ e++ai+G +GaGK+tLl +lag+ k+   +G+i ++g++l+    + ++k +g++ qe+ql ++ltv+e++  +al    ++++
+  XP_002770607.1 401 LDNVFGLVRPRECLAIMGGSGAGKTTLLDILAGKNKNgnVKGQIYINGNSLDP---KDYKKMVGFVDQEDQLISTLTVYETVLNSALlrlPRNMS 492
+                     56777778999************************998899***********9...9*************************9999966666777 PP
+
+    PF00005_seed  91 deesdeeiekalsklglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpta 150
+                      ++++ ++ ++ls+l++  ++d++++s+  + +SgG+k+rv++a+ l++ p++l+lDEpt+
+  XP_002770607.1 493 LRAKETRVIEVLSELRILSIKDRIIGSDFkRGISGGEKRRVSIACELVTSPSILFLDEPTS 553
+                     7788888******************999999****************************96 PP
+
+>> XP_457846.2  DEHA2C03784p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.1   0.4   3.4e-31   2.7e-29       1     150 []      34     185 ..      34     185 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 101.1 bits;  conditional E-value: 3.4e-31
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkp....teGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddee 93 
+                   l+nvs ++k+ge++a++G++G+GK+tLl+ l++ ++p    + Geil++++  ++    +l++ + +++qe++l   ltv+e+++++a++ ++ ++ 
+   XP_457846.2  34 LDNVSGSMKPGEIMALMGPSGSGKTTLLNRLSNRSNPksskQTGEILINKEVATS---AELKEVSNYVEQEDSLIGSLTVKETVEFSAKFANIPKRF 127
+                   79***********************************99999****999777666...89999999******************************* PP
+
+  PF00005_seed  94 sdeeiekalsklglkeladtvvkssp.ssLSgGqkqrvalarallkkpkllllDEpta 150
+                   + + ++ +++ lgl++ ++ ++++   + +SgGqk+r ++a  +l+kp++l+lDEpt+
+   XP_457846.2 128 RGDLVDGIIRLLGLENQKNLKIGTPLsKGISGGQKRRTSIASQVLSKPQILFLDEPTS 185
+                   ****************999999776699****************************96 PP
+
+>> XP_461424.2  DEHA2F24948p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.4   0.0   2.1e-09   1.6e-07      90     149 ..     150     208 ..      97     209 .. 0.79
+   2 !   42.7   0.0   3.3e-13   2.6e-11       3     149 ..     330     488 ..     328     489 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 30.4 bits;  conditional E-value: 2.1e-09
+  PF00005_seed  90 ddeesdee...iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpt 149
+                   ++++s ++   ++++l+ ++l++l ++ +    +sLS Gq +r  la+al++kp+l+++D+p+
+   XP_461424.2 150 SNTTSGVRedfVNQLLDLFNLNHLSNKWI----NSLSNGQLRRARLAKALINKPSLFIIDDPF 208
+                   3333333355699999*******999999....****************************96 PP
+
+  == domain 2  score: 42.7 bits;  conditional E-value: 3.3e-13
+  PF00005_seed   3 nvslklkegekvaivGenGaGKStLlkllagllkpteGei.lldgkdlke...qeleslrkeigvlpqe.pqlfpelt.vrenlrleal........ 85 
+                   n ++k+ +g+k+ i+G nG+GK+tLl+l++  + +   ++  +dg   k+    +   ++ +ig+ + e + l p+ + + + ++ + l        
+   XP_461424.2 330 NFDWKIPRGSKWRILGDNGTGKTTLLSLITADHPQSWRSVlSIDGVLRKTgngVSFFDVNDKIGISSPElHALVPGNKtMMQVIMNG-Lvpnvansn 425
+                   8899***************************98875555533333333335444445667777777766655555554244444433.336665443 PP
+
+  PF00005_seed  86 .lqalddeesdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpt 149
+                         +e  + ++ ++l k++++   + ++++s s LS   ++     ra++k+p++l+lDE++
+   XP_461424.2 426 fTFIAPKESLTPHARTLLGKFDDIL--AAHANDSFSDLSVTNQKLTLFLRAVIKNPEILILDEAF 488
+                   2222233333334777777777555..77777889****************************97 PP
+
+>> XP_460368.2  DEHA2F00154p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.5   0.1   2.6e-23     2e-21       1     150 []     478     630 ..     478     630 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 75.5 bits;  conditional E-value: 2.6e-23
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGei.....lldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqaldde 92 
+                   l++v+  +k+g+++a++G++GaGK+tLl++l+  ++  +G i      ++g++l +    s++++ig+++q++ + p++tvre lr++a+l+++++ 
+   XP_460368.2 478 LNHVDGWVKPGQLTALMGSSGAGKTTLLNCLSERVT--SGIIsdgtrMINGQELGS----SFQRSIGYVQQQDLHLPTSTVREALRFSAQLRQPNSV 568
+                   67788889*************************996..666622221555555555....99****************************7777766 PP
+
+  PF00005_seed  93 esdee...iekalsklglkeladtvvksspssLSgGqkqrvalarallkkpklll.lDEpta 150
+                     +e+   +e +++ l+++  ad  v+  ++ L   q++r+ +   l+ kpkll+ lDEpt+
+   XP_460368.2 569 SIQEKneyVEYIIHLLDMNLYADALVGVAGEGLNVEQRKRLTIGVELVAKPKLLIfLDEPTS 630
+                   55555556********************************************99769***96 PP
+
+>> XP_458186.2  DEHA2C11770p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.4   0.0   2.4e-22   1.9e-20       2     150 .]     551     693 ..     550     693 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 72.4 bits;  conditional E-value: 2.4e-22
+  PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee. 97 
+                   +++++++++++ + i+G+nG+GK+++++++agl     G +            +  +  i +lpq+ + f++ + r+++ +  +  ++ ++ ++++ 
+   XP_458186.2 551 NKLNFSISQNKNLLILGSNGCGKTSIARIMAGLWPLYFGLL-----------SKPDDDDIFYLPQK-TYFNNGNLRDQIIYPHSYDDMLEMGYNDDh 635
+                   789*************************************9...........678899********.5555555*******9998888777665555 PP
+
+  PF00005_seed  98 iekalsklglkeladtvvkssp.....ssLSgGqkqrvalarallkkpkllllDEpta 150
+                   ++++l++++l++l+++  + +        +SgG+kqr+++ar+l+k+pk+++lDE t+
+   XP_458186.2 636 LYHILREVKLEYLLTREGNFNVkkdwkDVFSGGEKQRMSIARVLFKNPKFVILDESTN 693
+                   ************76665433334456899**************************997 PP
+
+>> XP_457332.2  DEHA2B08646p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.6   0.0     4e-22   3.2e-20       4     150 .]     455     597 ..     452     597 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 71.6 bits;  conditional E-value: 4e-22
+  PF00005_seed   4 vslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal...lqalddeesdee 97 
+                   +++++k+g+ + i G+nG+GKS+L+++l gl    eG++++            + k++ +lpq + l ++   re++ +  +   + +++d++sd+ 
+   XP_457332.2 455 LNFSVKHGQHLLIAGPNGSGKSSLFRMLGGLWPCNEGNLTI-----------PTTKNMFYLPQRAYLCKGN-LREQIIYPDSldeFDKNKDANSDKN 539
+                   79*************************************44...........5899********9999999.9****99988666666777777888 PP
+
+  PF00005_seed  98 iekalsklglke.....ladtvvksspssLSgGqkqrvalarallkkpkllllDEpta 150
+                   ++++++ l+l++     ++ +  ++ +++LS G +qr+a+ar+   kpk+ +lDE+t+
+   XP_457332.2 540 LDEIMKILQLDDlligeDPWNMTRNWAEELSVGAQQRLAMARLYYHKPKFAVLDECTS 597
+                   999999999999886653333333334*****************************96 PP
+
+>> XP_460926.2  DEHA2F12936p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.3   0.1   2.5e-18   1.9e-16       1     149 [.      29     176 ..      29     177 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 59.3 bits;  conditional E-value: 2.5e-18
+  PF00005_seed   1 lknvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlke.......qeleslrkeigvlpqepqlfpeltvrenlrleallqald 90 
+                   l++v+l++  g++  ++G+nGaGKStLlk+lag++  ++G+++l g d  +       ++ + +++ i +l  e   +p   v++ + +++l++++ 
+   XP_460926.2  29 LQDVNLQIPWGSTNLLIGQNGAGKSTLLKILAGKTLIKQGKLKLGGFDPFDfskerneRQNSDVNNLITYLGTEWAANPV--VKRDIPVNLLVSSIG 123
+                   789***************************************98877766666666556666677777777777444444..6889999999***** PP
+
+  PF00005_seed  91 deesdeeiekalsklglkeladtvvksspssLSgGqkqrvalarallkkpkllllDEpt 149
+                     ++ e+ +++++ ++++   +  +    + +S G+++rv+l++ llk  kllllDE t
+   XP_460926.2 124 GGTYPERRDELIRIMDIDP--EWSM----AYISDGERRRVQLVMGLLKPWKLLLLDEVT 176
+                   **********999999888..4444....78**************************88 PP
+
+>> XP_002770490.1  DEHA2E15620p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.7   0.0   0.00057     0.045       2      45 ..     319     362 ..     318     389 .. 0.84
+   2 !   13.3   0.1   0.00037     0.029       3     110 ..     657     755 ..     655     783 .. 0.77
+   3 ?    0.9   0.0       2.4   1.9e+02      16      35 ..    1105    1124 ..    1097    1152 .. 0.81
+   4 !   19.4   0.0   4.9e-06   0.00038       7      85 ..    1382    1461 ..    1379    1523 .. 0.69
+   5 ?    2.3   0.0      0.91        72      15      35 ..    1774    1794 ..    1767    1812 .. 0.83
+   6 ?    1.1   0.0       2.2   1.7e+02      13      36 ..    2081    2104 ..    2074    2159 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 0.00057
+    PF00005_seed   2 knvslklkegekvaivGenGaGKStLlkllagllkpteGeilld 45 
+                     +++  +++ ++ v + G++GaGK+ L++ +a+ ++ +   +++ 
+  XP_002770490.1 319 RQLAHNIQNNKSVMLYGRSGAGKTYLINQVAQYMSYEDSIVKIH 362
+                     567788999********************999988777777665 PP
+
+  == domain 2  score: 13.3 bits;  conditional E-value: 0.00037
+    PF00005_seed   3 nvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee 97 
+                     ++ ++++  e v +vGe+G+GK+t+++ +a++++++   i++    ++++e   l +  + +  ++   p  ++ enl     + a ++++++e+
+  XP_002770490.1 657 QIGVSIQMVEPVLLVGETGTGKTTVVQEVAKMMNKKLTVINV----SQQTEAGDLLGGYKPVNTKTVAIPLQEIFENL-----FIATFSKKKNEK 742
+                     67889999999********************99986666633....34445667777777777777777777788888.....556777777777 PP
+
+    PF00005_seed  98 iekalsklglkel 110
+                     ++++lsk  +k  
+  XP_002770490.1 743 FSQILSKCFNKSQ 755
+                     7777777655554 PP
+
+  == domain 3  score: 0.9 bits;  conditional E-value: 2.4
+    PF00005_seed   16 ivGenGaGKStLlkllagll 35  
+                      + G++ aGK++++k la+ +
+  XP_002770490.1 1105 VQGPTSAGKTSMIKYLANIT 1124
+                      67*************99876 PP
+
+  == domain 4  score: 19.4 bits;  conditional E-value: 4.9e-06
+    PF00005_seed    7 klkegekvaivGenGaGKStLlkllagllkpteGeilld.gkdlkeqeleslrkeigvlpqe.pqlfpelt.vrenlrleal 85  
+                      ++k +e + +vGe+G+GK+t++++++  l++  + i+++  +++++ +l  +++ ++  +++ ++lf++l    e+l +e++
+  XP_002770490.1 1382 SMKYNEPLLLVGETGCGKTTVCQIITEFLRK--ELITVNaHQNTETGDLLGAQRPVRNRFETqSTLFNNLInLFETLGVEIT 1461
+                      678889999*******************985..6666673344444455555555555554446666666556666666644 PP
+
+  == domain 5  score: 2.3 bits;  conditional E-value: 0.91
+    PF00005_seed   15 aivGenGaGKStLlkllagll 35  
+                       + G+ G GK++L+++la+ +
+  XP_002770490.1 1774 LLEGSPGVGKTSLVSALAKAT 1794
+                      5779*************9865 PP
+
+  == domain 6  score: 1.1 bits;  conditional E-value: 2.2
+    PF00005_seed   13 kvaivGenGaGKStLlkllagllk 36  
+                       + + G++ +GK+ L++ +a  + 
+  XP_002770490.1 2081 PLILAGPTNSGKTELIRFIADIVG 2104
+                      57799**************98765 PP
+
+>> XP_458749.2  DEHA2D06688p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.5       2.6     2e+02      43      93 ..      61     110 ..      41     194 .. 0.66
+   2 !   17.1   0.0   2.6e-05     0.002       5      36 ..     224     255 ..     222     337 .. 0.83
+   3 !   13.9   0.0   0.00025     0.019       8      70 ..     573     634 ..     568     680 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 0.8 bits;  conditional E-value: 2.6
+  PF00005_seed  43 lldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddee 93 
+                   +l++ ++++ +++sl+k+i  + qe + ++  + ++ ++++   +al d++
+   XP_458749.2  61 QLKDFQMRRMKRTSLEKSIDAVLQEVRNDEADELADIIKQKDA-KALADAA 110
+                   3444444447888888888888888666666656776655433.3332222 PP
+
+  == domain 2  score: 17.1 bits;  conditional E-value: 2.6e-05
+  PF00005_seed   5 slklkegekvaivGenGaGKStLlkllagllk 36 
+                   s  +++ + v + G+ G+GK+t++++lag+l+
+   XP_458749.2 224 STGVEAPRGVLLYGPPGCGKTTIANALAGELQ 255
+                   55677777899******************987 PP
+
+  == domain 3  score: 13.9 bits;  conditional E-value: 0.00025
+  PF00005_seed   8 lkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqe.pql 70 
+                   + + + v + G+ G+GK+ L+k++a++++  +  i ++g +l ++   ++++ ++ ++q  +  
+   XP_458749.2 573 ITAPSGVLLWGPPGCGKTLLAKAVANESR--ANFISIKGPELLNKYVGESERAVRQVFQRaKAS 634
+                   556667899******************97..578888999999988888888888888884444 PP
+
+>> XP_461288.2  DEHA2F21758p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.7   9.3e-06   0.00073       5      96 ..     481     578 ..     480     600 .. 0.60
+   2 ?    7.5   0.0     0.023       1.8      14      35 ..     762     783 ..     753     829 .. 0.78
+   3 ?    1.7   0.5       1.4   1.1e+02      29      93 ..     954    1020 ..     953    1064 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 9.3e-06
+  PF00005_seed   5 slklkegekvaivGenGaGKStLlkllagllkpteGei.......lldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal..lqaldde 92 
+                   s+++++++ + i G +G+GK+++l+l+a + + + G         ++ +++    +  s ++ ++++++ + ++p l + +nl+  +   ++++d++
+   XP_461288.2 481 SITINKNSGTLIYGNSGSGKTSMLNLIASKINSDYGYHtkyisceKIMNEN---FNSLSNNHAMKWIQECSWHKPSLLILDNLDKILPaeMEHVDSA 574
+                   679999*************************99888753322222222222...2223333344444444777777777777764322334444444 PP
+
+  PF00005_seed  93 esde 96 
+                    s++
+   XP_461288.2 575 VSNQ 578
+                   4444 PP
+
+  == domain 2  score: 7.5 bits;  conditional E-value: 0.023
+  PF00005_seed  14 vaivGenGaGKStLlkllagll 35 
+                   + + G  G+GK+ L++++ag+ 
+   XP_461288.2 762 ILLYGYPGCGKTLLASAIAGQC 783
+                   6789***************985 PP
+
+  == domain 3  score: 1.7 bits;  conditional E-value: 1.4
+  PF00005_seed   29 kllagllkpteGeilldgkdlke....qeleslrkeigvlpqepqlfpeltvrenlrleallqalddee 93  
+                    +++ g+ ++t+++i +d  ++++    + + ++  ++++l+q +qlf+e t  +    +   + +d+e 
+   XP_461288.2  954 QAVKGEKHNTKDKISFDFFQVNSeklkNAKLRPADRVKILQQIEQLFNEETTSSDTNRK--SETIDSES 1020
+                    56778899999999666444444345335556667778888889999998866655433..22333332 PP
+
+>> XP_462191.1  DEHA2G14960p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.4   0.1     0.049       3.9       7      86 ..     243     387 ..     240     458 .. 0.56
+   2 !   12.7   0.0   0.00058     0.045       5      67 ..     514     574 ..     512     629 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 6.4 bits;  conditional E-value: 0.049
+  PF00005_seed   7 klkegekvaivGenGaGKStLlkllagllkp....teG.ei..............................lldgkdlkeqeleslrkeigvlpqep 68 
+                    +k+ + + + G+ G+GK+ +++++a+++       +G ei                              ++d+   k+ +++  + e +v++q  
+   XP_462191.1 243 GIKPPKGILMYGPPGTGKTVMARAVANETGAffflINGpEImskmagesesnlrkafeeaeknspsiifidEIDSIAPKR-DKTNGEVERRVVSQLL 338
+                   67777788899********9999999987654444222123555555555555555555555555555333333333333.4455555556666666 PP
+
+  PF00005_seed  69 qlfpeltvrenlrleal...............................l 86 
+                   +l +++++r+n  + a                                l
+   XP_462191.1 339 TLMDGMKARSNTVVIAAtnrpnsidpalrrfgrfdrevdigvpdaagrL 387
+                   6666666666655444455555555555555555555555555555550 PP
+
+  == domain 2  score: 12.7 bits;  conditional E-value: 0.00058
+  PF00005_seed   5 slklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqe 67 
+                   ++ l++++ v + G+ G+GK+ L+k++a +++  +  i ++g +l +    +++++i+ ++ +
+   XP_462191.1 514 KFGLSPSKGVLFYGPPGTGKTLLAKAVATEVS--ANFISVKGPELLSMWYGESESNIRDIFDK 574
+                   58999************************997..46666677777776666777777666666 PP
+
+>> XP_456823.2  DEHA2A11286p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.1       5.8   4.6e+02      35      74 ..     133     170 ..     130     237 .. 0.61
+   2 !   16.5   0.0   3.8e-05     0.003       6      83 ..     288     364 ..     286     404 .. 0.73
+   3 ?    1.8   0.1       1.3     1e+02       6      34 ..     557     585 ..     555     601 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 5.8
+  PF00005_seed  35 lkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpel 74 
+                   +++++++i+++gk +k   le+l +eig+++   +l + +
+   XP_456823.2 133 ENDQNESIKIEGKVSKA--LEKLFNEIGIVFPGLKLTKVS 170
+                   67789999999999998..999999999988775555444 PP
+
+  == domain 2  score: 16.5 bits;  conditional E-value: 3.8e-05
+  PF00005_seed   6 lklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqe.pqlfpeltvrenlrle 83 
+                   + +++ + + + G+ G+GK+ Ll+++a++++     ++++g ++ ++ l ++++ i+ +++e  +++p +   ++++  
+   XP_456823.2 288 FGISPPRGILLHGPPGTGKTMLLRCVANETNAHV--LTVNGPSIVSKYLGETENAIRDIFEEaRKFQPSIIFLDEIDSL 364
+                   7788888899*******************98654..555999999999**************77788888788888633 PP
+
+  == domain 3  score: 1.8 bits;  conditional E-value: 1.3
+  PF00005_seed   6 lklkegekvaivGenGaGKStLlkllagl 34 
+                   l +++ + v + G+ G+ K+  +k+la +
+   XP_456823.2 557 LGVSAPKGVLLYGPPGCSKTLTAKALATE 585
+                   5677778899****************987 PP
+
+>> XP_002770606.1  DEHA2G10252p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.1   0.1   0.00022     0.017      10     111 ..     293     406 ..     288     423 .. 0.73
+   2 ?    4.5   0.0      0.19        15      14      33 ..     579     598 ..     571     602 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00022
+    PF00005_seed  10 egekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee....... 97 
+                     + + + ++G+ G+GK+ +++ + ++l+ +e ++ ++g ++ ++    ++++i++l+ +++  ++   +en +l + + +  d   +++       
+  XP_002770606.1 293 HVKGLLLFGPPGTGKTLIARQIGKMLNVKEPKV-VNGPEMLSKYVGASEENIRKLFSDAETEYKQ-KGENSQLHIIIFDELDSVFKQRgsaksdg 385
+                     5566789**************************.9*9999999***************8888777.56776666553333333333333333444 PP
+
+    PF00005_seed  98 .......iekalsklglkela 111
+                            ++++l+k++ ++ +
+  XP_002770606.1 386 tgvgdnvVNQLLAKMDGVDQL 406
+                     456555566666666655555 PP
+
+  == domain 2  score: 4.5 bits;  conditional E-value: 0.19
+    PF00005_seed  14 vaivGenGaGKStLlkllag 33 
+                     + + G+ G+GK+ ++++la 
+  XP_002770606.1 579 ILLHGPPGSGKTAIASTLAL 598
+                     5689**********999975 PP
+
+>> XP_457511.2  DEHA2B13024p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.2   2.3   5.6e-06   0.00044       3     109 ..     107     230 ..     106     424 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 19.2 bits;  conditional E-value: 5.6e-06
+  PF00005_seed   3 nvslklkegekvaivGenGaGKStLlkllagllkp....teGei..............lldgkdlke........qeleslrkeigvlpqepqlfpe 73 
+                   +++  +  ge++ i+G +G+GKS Ll  l+  ++     ++ +               +       +         +++++  +i+++  ++  +++
+   XP_457511.2 107 QLNGGIPLGEITEIFGASGCGKSQLLLQLCIYTQLvgdpENNQCiyistespletrrlH-------DmidhynakSDKKVSMDNISCIYCQDIENQD 196
+                   5788999******************9887766654444444444555665555544430.......1444555666888888999999888788888 PP
+
+  PF00005_seed  74 ltvrenlrleallqalddeesdee...iekalsklglke 109
+                   +t  ++l ++     l++e+ +++   i+ + ++l+l+e
+   XP_457511.2 197 HTLFTQLPVK-----LSQEKGKVRaiiIDSISHHLRLEE 230
+                   8888888655.....333333333333666666666666 PP
+
+>> XP_459997.2  DEHA2E15972p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.2   0.8   1.1e-05   0.00088       3      75 ..      83     155 ..      81     438 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 18.2 bits;  conditional E-value: 1.1e-05
+  PF00005_seed   3 nvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpelt 75 
+                   n+   + + +++ + G++G+ KSt +k+la++  p + + +  +  +++qe +s ++ i+++    +  p+++
+   XP_459997.2  83 NMISGIDPTKLLILTGPSGSSKSTTIKVLANEIIPRSATSNNFESYMTRQESTSHDNWIEYIDTIVTDTPQSK 155
+                   66667899999************************88877444555555677777777776665555555444 PP
+
+>> XP_002770032.1  DEHA2A12606p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.4   0.1   2.5e-06    0.0002      15     108 ..      63     156 ..      54     176 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 20.4 bits;  conditional E-value: 2.5e-06
+    PF00005_seed  15 aivGenGaGKStLlkllagllkpteGeilld.gkdlke.qeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee.iekalsklg 106
+                      i+G+nG+GKStL+++++  l    G+i l   k +k+ +++ + ++ i++  ++++ +  l ++++  ++ ++ +l+ e sde+ i+k+ +k++
+  XP_002770032.1  63 MIIGPNGTGKSTLVAAICLGLG---GKIDLIkRKTMKSmIKTGQEDSTIEITLKDSEPDVYLVIQRKFTEKESVWKLNGEISDEKsIKKICKKFN 154
+                     79****************9985...7775552444444666777777777777776666666667777666667777777777666777777777 PP
+
+    PF00005_seed 107 lk 108
+                     ++
+  XP_002770032.1 155 IQ 156
+                     65 PP
+
+>> XP_457395.2  DEHA2B10186p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.0   8.5e-06   0.00066      14      36 ..      31      53 ..      22     129 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 8.5e-06
+  PF00005_seed 14 vaivGenGaGKStLlkllagllk 36
+                  v ivGe+G+G StL+++l+g  +
+   XP_457395.2 31 VMIVGESGSGRSTLINTLCGGNS 53
+                  79*****************9755 PP
+
+>> XP_461055.1  DEHA2F16016p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.3   0.0    0.0066      0.52      15      86 ..      60     137 ..      51     169 .. 0.72
+   2 ?    6.3   0.6     0.052       4.1      36     119 ..     248     332 ..     194     368 .] 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 9.3 bits;  conditional E-value: 0.0066
+  PF00005_seed  15 aivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal...........l 86 
+                    + G+ G+GK++ + +la++l    G  l++++ l+     s ++ i+++ q+ + f +lt+ +  ++ ++           l
+   XP_461055.1  60 LFYGPPGTGKTSTILALAKQLY---GPHLYKSRVLEL--NASDERGISIVRQKIKNFARLTISNPSKEDLEnypcppykiiiL 137
+                   578*******999999999876...555555555555..67788889999999888888888776665555555555555443 PP
+
+  == domain 2  score: 6.3 bits;  conditional E-value: 0.052
+  PF00005_seed  36 kpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee.iekalsklglkeladtvvkssp 119
+                    +++G+i++ ++d+k++ ++ + +ei+ +  e++l++ +++ e+l+++  lq++++   + + +++++++l +k ++++ ++ss+
+   XP_461055.1 248 IDANGDIEMVDADTKSKITQDSVQEIAGVLPEASLDQIISAIESLDTRTILQKIEEIVLQGWsAQQVVDQLHDKFILNDSLESST 332
+                   4578888888888888777777777766666668888888888898888888888887777678888888888887777776665 PP
+
+>> XP_462342.1  DEHA2G18436p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.0   0.3   2.8e-05    0.0022       7      52 ..      16      72 ..      14     174 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 2.8e-05
+  PF00005_seed  7 klkegekvaivGenGaGKStLlkll.agllkpteGeilldgkdlke..........q 52
+                   +++  ++ i+G  GaGK+t+l  l +g++  t+ +i ++ + lk+           
+   XP_462342.1 16 GINKEIRILILGLDGAGKTTILYRLqMGEVVTTKPTIGFNVETLKYknltlniwdlG 72
+                  57888899************9865527888899999988877777755554444442 PP
+
+>> XP_461891.1  DEHA2G07898p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.3   0.1   1.1e-05   0.00083      14      37 ..       5      28 ..       2     169 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 18.3 bits;  conditional E-value: 1.1e-05
+  PF00005_seed 14 vaivGenGaGKStLlkllagllkp 37
+                  ++i G++G+GKStLlk l  +  +
+   XP_461891.1  5 IVISGPSGTGKSTLLKKLFAEFPD 28
+                  6899************99887765 PP
+
+>> XP_461444.2  DEHA2F25388p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.8   0.2   6.5e-05    0.0051       3      43 ..     241     301 ..     240     377 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 15.8 bits;  conditional E-value: 6.5e-05
+  PF00005_seed   3 nvslklkegekvaivGenGaGKS.tLlkllagllkpteGei...................l 43 
+                    +++ ++e+ ++ i G+ G+GK+ tL++l+ +l+ +  +++                    
+   XP_461444.2 241 AINFAINESAITIIHGPPGTGKTyTLIELIKQLTFNNDEKVlvcgpsnisvdtilerlspI 301
+                   589********************9999***9999998888844444444444444444432 PP
+
+>> XP_461620.1  DEHA2G01826p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.1   1.5e-05    0.0012      13      38 ..      74      99 ..      71     119 .. 0.87
+   2 ?   -0.2   1.0       5.3   4.1e+02      46     106 ..     571     633 ..     557     732 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 1.5e-05
+  PF00005_seed 13 kvaivGenGaGKStLlkllagllkpt 38
+                  +va+vG+ G+GKStL+k l++ l +t
+   XP_461620.1 74 IVAVVGPPGTGKSTLIKSLIRRLAKT 99
+                  69*****************9988764 PP
+
+  == domain 2  score: -0.2 bits;  conditional E-value: 5.3
+  PF00005_seed  46 gkdlke.qeleslrkeigvlpqe.pqlfpeltvrenlrleallqalddeesdeeiekalsklg 106
+                   ++d++e ++  + +k i+  +q+ +q+ p +   e+l+++ + + +dde++dee e+  + l+
+   XP_461620.1 571 EEDIEEdDDAFFHKKDIRDASQDlDQFIPSYPPLEQLKEKFNASTVDDEDDDEEYENGYRILK 633
+                   455555455556677888888888888888888888988888777777777777554443333 PP
+
+>> XP_460738.2  DEHA2F08646p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.2   0.0   2.3e-05    0.0018       9      65 ..       4      71 ..       1     152 [. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 17.2 bits;  conditional E-value: 2.3e-05
+  PF00005_seed  9 kegekvaivGenGaGKStLlkllagllkp..teGeilldgkdlke.........qeleslrkeigvlp 65
+                   +++++++ G+ G+GK+t+++lla + +    eG+ l   +++++         +++  + ke+   +
+   XP_460738.2  4 TPNTVIVVGGPAGTGKTTIAELLATHFQCpfIEGDALHPPQNISKmsegipltdEDRWDWLKELTRAS 71
+                  678899999*****************999898999844455554444444443366666655554444 PP
+
+>> XP_457123.1  DEHA2B03696p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   0.0   3.4e-05    0.0027       6     111 ..      10     119 ..       5     199 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 3.4e-05
+  PF00005_seed   6 lklkegekvaivGenGaGKStLlkllagllkp..teGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleal.....lqalddeesd 95 
+                    + +   k++++G +G GKS Ll+ +++ + +     +i   g ++ +++le+  k+++    ++  ++++++ ++ +++       +++++++es 
+   XP_457123.1  10 YDYEYLYKIVLIGDSGVGKSNLLSRFTRDEFNleSRSTI---GVEFATRTLEIDGKRVKAQIWDTAGQERYRAITSAYYRGAvgaliVYDISKAESY 103
+                   5556667899*****************998874445555...3333333444444444444333333333332222222222344457788888888 PP
+
+  PF00005_seed  96 eeiekalsklglkela 111
+                   e ++++l++l+ + +a
+   XP_457123.1 104 ESVSRWLKELKEHADA 119
+                   8888888887766644 PP
+
+>> XP_462417.2  DEHA2G20108p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.8   0.0   0.00026     0.021       5      83 ..     442     524 ..     441     561 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 0.00026
+  PF00005_seed   5 slklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlke...qeleslrkeigvlpqe.pqlfpeltvrenlrle 83 
+                   ++ + + + v + G+ G+GK+ ++++la   + ++ +i++ +++  +   +   +++++++ l++e ++ +p +   ++++  
+   XP_462417.2 442 NFGITPPRGVLFHGPPGTGKTLMARALAASCSTAQQKITFFMRKGADclsKWVGEAERQLRLLFEEaKNQQPAIIFFDEIDGL 524
+                   567777788999**************************98766666666699999**********988888888888888633 PP
+
+>> XP_002770608.1  DEHA2G10516p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.0   7.7e-05     0.006      14      60 ..     250     296 ..     243     352 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 7.7e-05
+    PF00005_seed  14 vaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrke 60 
+                     + + G+ G+GK++ ++++ag+l+     ++l +++l++++l++l ++
+  XP_002770608.1 250 YLLYGPPGSGKTSFIQAIAGELDYNICILNLSENNLTDDRLNHLMNH 296
+                     6799******************9988888888888888666665555 PP
+
+>> XP_459081.2  DEHA2D13882p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.7       5.9   4.6e+02      85     132 ..     410     473 ..     366     476 .. 0.51
+   2 !   11.6   0.1    0.0012     0.097       8      28 ..     493     513 ..     488     533 .. 0.79
+   3 ?    6.5   0.0     0.047       3.7     106     148 ..     568     606 ..     546     608 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 5.9
+  PF00005_seed  85 l..lqalddeesdeeiekalsklglke.................ladtvvksspssLSgGqkqrval 132
+                   +   qa ++++++++ ++ l++ ++ +                 ++++ +   ++++S+G++  +++
+   XP_459081.2 410 EkeKQARQEKAKSKDSHDPLNRANNAQnteiattnektsnfiseWKKSQM---DKNISYGKRTSLSI 473
+                   12233333333333333333333333333333333333343222222222...37778887777766 PP
+
+  == domain 2  score: 11.6 bits;  conditional E-value: 0.0012
+  PF00005_seed   8 lkegekvaivGenGaGKStLl 28 
+                   ++e++ ++ivGe+G+GK+t +
+   XP_459081.2 493 VRENQFLVIVGETGSGKTTQI 513
+                   788999************944 PP
+
+  == domain 3  score: 6.5 bits;  conditional E-value: 0.047
+  PF00005_seed 106 glkeladtvvksspssLSgGqkqrvalarallkkpkllllDEp 148
+                   ++k  +dt++    + +  G+ qr al   l+++ ++++lDE+
+   XP_459081.2 568 EDKTSKDTRM----KYMTDGMLQREALNDPLMSRYSVIMLDEA 606
+                   4444455555....99**************************8 PP
+
+>> XP_458580.2  DEHA2D02574p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   0.1   0.00017     0.013      12      37 ..       7      32 ..       2     138 .. 0.75
+   2 ?   -1.0   0.1       9.7   7.6e+02      56      67 ..     251     262 ..     202     331 .. 0.51
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 0.00017
+  PF00005_seed 12 ekvaivGenGaGKStLlkllagllkp 37
+                  +k+ ++G++G+GKS++ +++  +++ 
+   XP_458580.2  7 KKLLLMGRSGSGKSSMRSIIFSNYSA 32
+                  6889****************999876 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 9.7
+  PF00005_seed  56 slrkeigvlpqe 67 
+                   + ++ i+++ q 
+   XP_458580.2 251 KISSIIKTYKQS 262
+                   222222222222 PP
+
+>> XP_462574.1  DEHA2G23804p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0   0.0       4.8   3.8e+02      50      86 ..      45      98 ..      22     135 .. 0.68
+   2 !   12.4   0.0   0.00073     0.057      12      34 ..     367     389 ..     359     418 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: -0.0 bits;  conditional E-value: 4.8
+  PF00005_seed 50 keqeleslrkeigvlpqepqlfpeltvrenlrleal.................l 86
+                  +e+e+++++  i+++++ ++ +++++  +n+++++l                 +
+   XP_462574.1 45 TEEEIPEPDCVISKVSESDNDQSKVNYLDNIKYKLLgvdskglsdiqmtlkdyF 98
+                  346777788889999999999999999999999977777666555555544440 PP
+
+  == domain 2  score: 12.4 bits;  conditional E-value: 0.00073
+  PF00005_seed  12 ekvaivGenGaGKStLlkllagl 34 
+                     +++vG   aGKStLl+++++ 
+   XP_462574.1 367 ADLGLVGLPNAGKSTLLRAISKA 389
+                   5689****************986 PP
+
+>> XP_459513.2  DEHA2E04444p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.0   0.3    0.0019      0.15      11      43 ..     286     320 ..     280     379 .. 0.87
+   2 ?    2.2   0.0      0.98        77      63     123 ..     436     495 ..     404     496 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0019
+  PF00005_seed  11 gekvaivGenGaGKStLlkllagllkp..teGeil 43 
+                   g+ +   G+ G+GKS Ll+ +++ lk+  ++G++ 
+   XP_459513.2 286 GQSLFYTGSAGTGKSVLLRSIIKSLKQkhEKGHVA 320
+                   6667778****************998856777774 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.98
+  PF00005_seed  63 vlpqepqlfpeltvrenlrleallqalddeesdeeiekalsklglkeladtvvksspssLS 123
+                   ++++  + f+    +++++ ++ l+++++++ d+++ ++l+ +++ +++++++  + + LS
+   XP_459513.2 436 IVEESIFAFESQAWKDTIKCTIILKEVFRQKGDQRFIDMLNDMRNGKVNNETI-AEFKRLS 495
+                   34444455555556677777777***********************9999998.5556666 PP
+
+>> XP_457473.2  DEHA2B11946p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.4   0.1    0.0015      0.11      11      33 ..       4      26 ..       1      34 [. 0.88
+   2 ?    1.4   0.0       1.8   1.4e+02      27     105 ..     144     216 ..     143     249 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.0015
+  PF00005_seed 11 gekvaivGenGaGKStLlkllag 33
+                   +++a+vG+  aGKSt l+ l+ 
+   XP_457473.2  4 ETVIALVGKPSAGKSTTLNSLTD 26
+                  6799***************9985 PP
+
+  == domain 2  score: 1.4 bits;  conditional E-value: 1.8
+  PF00005_seed  27 LlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdeeiekalskl 105
+                   ++k ++g+l    G++  + + +k ++le lr+++g ++ ++ql  +    + l       a+ +++++e iek+++++
+   XP_457473.2 144 IFKWILGNLMERWGSVVRRHTATKATTLETLRQQLGGYSANKQLIGKA--LDLLP----GLAPLQDWDNETIEKVVRSF 216
+                   578899999999999988888888899999999999888887776655..22221....34555555555555555555 PP
+
+>> XP_461219.2  DEHA2F20086p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.8   0.0   0.00025      0.02      14      35 ..     137     158 ..     128     322 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 0.00025
+  PF00005_seed  14 vaivGenGaGKStLlkllagll 35 
+                   v + G+ G+GK+ L+k++a+++
+   XP_461219.2 137 VLFYGPPGCGKTMLAKAIAKES 158
+                   6789***************986 PP
+
+>> XP_461623.2  DEHA2G01892p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.0   0.1   0.00045     0.035       9      36 ..     642     669 ..     635     711 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00045
+  PF00005_seed   9 kegekvaivGenGaGKStLlkllagllk 36 
+                   +++ ++ +vG+ G+GK++L+k +a+ l 
+   XP_461623.2 642 NKSPIIMLVGPPGTGKTSLAKSIAKSLG 669
+                   5677899****************98765 PP
+
+>> XP_458439.2  DEHA2C17248p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.2   0.00078     0.061      13      38 ..      64      89 ..      59     129 .. 0.80
+   2 ?    1.4   0.2       1.7   1.3e+02      49     115 ..     225     287 ..     196     333 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00078
+  PF00005_seed 13 kvaivGenGaGKStLlkllagllkpt 38
+                  ++ i G  G+GKStLl+++ + +k+ 
+   XP_458439.2 64 ITIITGYLGSGKSTLLEMIGKSSKKR 89
+                  57899*************98887764 PP
+
+  == domain 2  score: 1.4 bits;  conditional E-value: 1.7
+  PF00005_seed  49 lkeqeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdeeiekalsklglkeladtvv 115
+                   l+e+ele  rk++     +++l+  l  ++++ ++ ++  l++e +d +i+++++k++ ++   t++
+   XP_458439.2 225 LTEEELEDERKKLDEGLTTAHLQIAL--ADTILIN-KVDTLEKESYDHRIKAIVDKVKGIN-SSTPI 287
+                   33344444444443333333444333..3333322.3899999999999999999998877.45554 PP
+
+>> XP_002770842.1  DEHA2F17116p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.4   0.3   0.00017     0.013      17      43 ..      42      69 ..      36     151 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 0.00017
+    PF00005_seed 17 vGenGaGKStLlklla.gllkpteGeil 43
+                    vG++G GKStL+++l   +l+ t+G+ +
+  XP_002770842.1 42 VGRSGLGKSTLVNTLFsSKLTETSGRRH 69
+                    9***********9875155666888753 PP
+
+>> XP_002770519.1  DEHA2E21340p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   1.1       4.9   3.9e+02      34     115 ..      94     177 ..      25     181 .. 0.67
+   2 ?   14.3   0.2   0.00018     0.014       8      28 ..     180     200 ..     174     209 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -0.1 bits;  conditional E-value: 4.9
+    PF00005_seed  34 llkpteGeilld.gkdlke...qeleslrkeigvlpqepqlfpeltvrenlrleal.lqalddeesdeeiekalsklglkeladtvv 115
+                     l++ te++i ++ +k++++   +  ++  k+++++   +   ++   ++n +++ + l++ +  ++ ++++++++kl++ + +d+++
+  XP_002770519.1  94 LSDETEEKI-IKpKKSIEQsttD--PRKAKKMKKVVNYEDSEEDEDEGNNSYYKSKdLSNSQLSKKASDLYEVRQKLPIFQHKDEIL 177
+                     556677777.4436666666432..23333333333322222222224444444222555555555555888888888888777766 PP
+
+  == domain 2  score: 14.3 bits;  conditional E-value: 0.00018
+    PF00005_seed   8 lkegekvaivGenGaGKStLl 28 
+                     ++++++++i+Ge+G+GKSt +
+  XP_002770519.1 180 VNKNQVTVIIGETGSGKSTQI 200
+                     899****************65 PP
+
+>> XP_460723.2  DEHA2F08338p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.0    0.0006     0.047      11      35 ..     400     424 ..     395     479 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.0006
+  PF00005_seed  11 gekvaivGenGaGKStLlkllagll 35 
+                   ++++ + G+ G+GKS+L+k++ ++ 
+   XP_460723.2 400 DKLILLHGPPGTGKSSLAKAIFQKF 424
+                   577899***************9876 PP
+
+>> XP_460568.2  DEHA2F04708p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.1    0.0035      0.27       8      41 ..     589     622 ..     583     719 .. 0.73
+   2 ?    0.1   0.0       4.3   3.4e+02     111     137 ..    1075    1101 ..    1057    1106 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.0035
+  PF00005_seed   8 lkegekvaivGenGaGKStLlkllagllkpteGe 41 
+                   ++ ++++ + Ge+G+GKSt +  ++  + +  G+
+   XP_460568.2 589 INSNKVTIVTGETGSGKSTQIVQFILDYLNSTGD 622
+                   678899999**********776666655555555 PP
+
+  == domain 2  score: 0.1 bits;  conditional E-value: 4.3
+  PF00005_seed  111 adtvvksspssLSgGqkqrvalarall 137 
+                    + +++k+ ++s+S+Gq   + +a+a+ 
+   XP_460568.2 1075 NRERIKQTQNSFSKGQGDLIGMANAFR 1101
+                    456778888***********9999875 PP
+
+>> XP_002770353.1  DEHA2D18546p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.2    0.0004     0.031       9      45 ..     260     296 ..     255     407 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.0004
+    PF00005_seed   9 kegekvaivGenGaGKStLlkllagllkpteGeilld 45 
+                      +g k+ ++G+  aGKS+Ll+ la+++     +i   
+  XP_002770353.1 260 MKGIKLILLGPPNAGKSSLLNYLANKEAAIVSDIAGT 296
+                     5788999******************999877777333 PP
+
+>> XP_457968.2  DEHA2C06490p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.0   0.00048     0.038      12      38 ..      13      39 ..      10      80 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00048
+  PF00005_seed 12 ekvaivGenGaGKStLlkllagllkpt 38
+                  +k++i+G   +GK++Ll+++++ + p+
+   XP_457968.2 13 RKIVILGDGACGKTSLLNVFTRGYFPQ 39
+                  5899*****************999875 PP
+
+>> XP_457265.1  DEHA2B07062p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.0   0.00048     0.038      14     106 ..      11     107 ..       9     184 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00048
+  PF00005_seed  14 vaivGenGaGKStLlkllagllkpteGeilldgkdlkeqeleslrkeigvlpqe.pqlfpeltvrenlrleal....lqalddeesdeeiekalskl 105
+                   + ++G +G GKS Ll  +a  +  t + i   g d+k +++e   k i+    + +   +  t+ ++ + +a+    +++++d+es + ++++l+++
+   XP_457265.1  11 LLLIGDSGVGKSCLLLRFADDTY-TPDYISTIGVDFKIRTIELDGKTIKLQIWDtAGQERFRTITSSYYRGAHgiiiVYDVTDQESFNNVKQWLQEI 106
+                   679************99998875.7888877788888888888888887766663333333345555555555777777777777777777777666 PP
+
+  PF00005_seed 106 g 106
+                   +
+   XP_457265.1 107 D 107
+                   5 PP
+
+>> XP_002770249.1  DEHA2D02420p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.3   0.00064     0.051      13      34 ..      10      31 ..       6     196 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.00064
+    PF00005_seed 13 kvaivGenGaGKStLlkllagl 34
+                    kv i+G +G GK++L++ + ++
+  XP_002770249.1 10 KVIILGDSGVGKTSLMQQFVNN 31
+                    689************9987665 PP
+
+>> XP_459498.2  DEHA2E04026p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.5   0.0      0.19        15      14      33 ..     207     226 ..     201     241 .. 0.83
+   2 ?    5.7   0.0     0.079       6.2      15      36 ..     610     631 ..     604     657 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 4.5 bits;  conditional E-value: 0.19
+  PF00005_seed  14 vaivGenGaGKStLlkllag 33 
+                    +++Ge G GK+++++ +a+
+   XP_459498.2 207 SVLIGEPGVGKTSIVEGVAQ 226
+                   689***********986665 PP
+
+  == domain 2  score: 5.7 bits;  conditional E-value: 0.079
+  PF00005_seed  15 aivGenGaGKStLlkllagllk 36 
+                    ++G +G+GK+ L+k +ag l 
+   XP_459498.2 610 LFLGLSGSGKTELAKKVAGFLF 631
+                   589************9999764 PP
+
+>> XP_461270.2  DEHA2F21186p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.1   0.00087     0.068      13      36 ..      21      44 ..      10     118 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00087
+  PF00005_seed 13 kvaivGenGaGKStLlkllagllk 36
+                  ++a+ G++ +GKSt +k+l +l k
+   XP_461270.2 21 LIALSGPSSSGKSTTAKALHKLFK 44
+                  5799***************99876 PP
+
+>> XP_461726.1  DEHA2G04136p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0    0.0014      0.11      12      51 ..     195     232 ..     187     348 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.0014
+  PF00005_seed  12 ekvaivGenGaGKStLlkllagllkpteGeilldgkdlke 51 
+                   + v + G+ G+GK+ L+k++a+ ++  +  i+++g ++ +
+   XP_461726.1 195 RGVLLYGPPGTGKTMLVKAVANSST--ASFIRINGSEFVQ 232
+                   568899**************99875..5666666666555 PP
+
+>> XP_457323.2  DEHA2B08426p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.2    0.0011     0.085      13      36 ..      58      81 ..      55     213 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.0011
+  PF00005_seed 13 kvaivGenGaGKStLlkllagllk 36
+                  +++i G +G+GK++L + ++++ +
+   XP_457323.2 58 IIGIAGNSGSGKTSLSQKIIQEIN 81
+                  689************999988865 PP
+
+>> XP_459017.2  DEHA2D12540p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0     0.002      0.15      14      50 ..      68     103 ..      60     166 .. 0.80
+   2 ?   -0.3   0.9       5.9   4.6e+02      47      98 ..     361     408 ..     319     433 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.002
+  PF00005_seed  14 vaivGenGaGKStLlkllagllkpteGeilldgkdlk 50 
+                   + i Ge+G GK tL+++l + +   + +i+ ++++++
+   XP_459017.2  68 IMIAGESGLGKKTLINTLFNREIL-SNDINEESAEFD 103
+                   6899**************999875.444434444444 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 5.9
+  PF00005_seed  47 kdlkeqeleslrkeigvlpqepqlfpelt.vrenlrleallqalddeesdeei 98 
+                   k+l+e +l ++++e++ ++q++   +e++  r++ +l        ++e+++++
+   XP_459017.2 361 KSLHEAKLAKMEAEMKNVFQQKVSEKEKKlQRSEADL-----FARHKEMKDKL 408
+                   4444455556666666666664444444312222221.....22222222223 PP
+
+>> XP_460687.2  DEHA2F07568p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.3    0.0015      0.12      13      67 ..      15      68 ..      11     163 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.0015
+  PF00005_seed 13 kvaivGenGaGKStLlkllag.llkpteGeilldgkdlkeqeleslrkeigvlpqe 67
+                  k+ +vG +G GKS Ll  +   + +p    i+  g d+k +++es  k+i+    +
+   XP_460687.2 15 KLLLVGDSGVGKSCLLLRFVEdKFNP--SFITTIGIDFKIRTIESNGKKIKLQVWD 68
+                  5789*********9875554403333..4454455566665566666655554444 PP
+
+>> XP_456553.2  DEHA2A05324p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.1   0.00067     0.052       6      33 ..      77     105 ..      74     200 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.00067
+  PF00005_seed   6 lklkeg.ekvaivGenGaGKStLlkllag 33 
+                   ++l+ g ++  i+G+nG+GKS +l  ++ 
+   XP_456553.2  77 FELNLGpQLNFIIGRNGSGKSAILTGISI 105
+                   666666244579***********998864 PP
+
+>> XP_457422.2  DEHA2B10780p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.6   0.0     0.021       1.7      14      41 ..     179     205 ..     171     248 .. 0.75
+   2 ?    1.7   0.1       1.4   1.1e+02     129     147 ..     251     269 ..     221     271 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 7.6 bits;  conditional E-value: 0.021
+  PF00005_seed  14 vaivGenGaGKStLlkllagllkpteGe 41 
+                   + + Ge G+GKS L+ ++a  l   + +
+   XP_457422.2 179 LLVNGEVGCGKSMLMDIFAASLP-HNSK 205
+                   55679************998763.4555 PP
+
+  == domain 2  score: 1.7 bits;  conditional E-value: 1.4
+  PF00005_seed 129 rvalarallkkpkllllDE 147
+                     ++a+ ++ k ++l+lDE
+   XP_457422.2 251 LFEIAQKMIDKNTVLMLDE 269
+                   678***************9 PP
+
+>> XP_461077.2  DEHA2F16522p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.041       3.2      14      35 ..    2109    2130 ..    2103    2144 .. 0.86
+   2 ?    3.4   0.0      0.42        33       8      33 ..    2465    2491 ..    2462    2523 .. 0.82
+   3 ?    1.8   0.0       1.3     1e+02      13      31 ..    2812    2830 ..    2807    2836 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.041
+  PF00005_seed   14 vaivGenGaGKStLlkllagll 35  
+                    + +vG  G+GK+t+ k +++ +
+   XP_461077.2 2109 IMLVGDPGSGKTTIWKSVLKSM 2130
+                    689***********99887765 PP
+
+  == domain 2  score: 3.4 bits;  conditional E-value: 0.42
+  PF00005_seed    8 lkegekvaivGenGaGKS.tLlkllag 33  
+                    l+e + + + G+ G+GK+ tLl++l +
+   XP_461077.2 2465 LNEHKSLLLCGPPGSGKTmTLLEALRK 2491
+                    56778899**********778888866 PP
+
+  == domain 3  score: 1.8 bits;  conditional E-value: 1.3
+  PF00005_seed   13 kvaivGenGaGKStLlkll 31  
+                     + +vG+  +GK+tL k +
+   XP_461077.2 2812 HMILVGPCTSGKTTLTKFV 2830
+                    5789***********9976 PP
+
+>> XP_461277.2  DEHA2F21450p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.1   0.00085     0.067      10      44 ..     535     569 ..     527     638 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00085
+  PF00005_seed  10 egekvaivGenGaGKStLlkllagllkpteGeill 44 
+                    g+++ + G+ G+GK++++k +a  l+ +  +i +
+   XP_461277.2 535 DGKILCLAGPPGTGKTSIAKSIAESLNRKYVRIAM 569
+                   5899*******************998874444433 PP
+
+>> XP_460208.2  DEHA2E20834p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0       1.2        98      15      34 ..     134     153 ..     126     170 .. 0.86
+   2 ?   10.4   0.0     0.003      0.24      15      51 ..     535     572 ..     529     736 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 1.9 bits;  conditional E-value: 1.2
+  PF00005_seed  15 aivGenGaGKStLlkllagl 34 
+                   +++G  G+GK+ +++ la+ 
+   XP_460208.2 134 VLIGNAGTGKTAVMEGLAQR 153
+                   79*********999887765 PP
+
+  == domain 2  score: 10.4 bits;  conditional E-value: 0.003
+  PF00005_seed  15 aivGenGaGKStLlkllagllkp.teGeilldgkdlke 51 
+                    ++G++G+GK+ L k la  l   ++  i++d+ +++e
+   XP_460208.2 535 IFLGPTGTGKTELTKSLAEFLFHdKSSVIRFDMSEFQE 572
+                   589***************98765155566778888777 PP
+
+>> XP_462112.2  DEHA2G13222p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0    0.0019      0.15      17      38 ..       9      30 ..       3      66 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0019
+  PF00005_seed 17 vGenGaGKStLlkllagllkpt 38
+                  +G+ G GKSt ++ ++ +++  
+   XP_462112.2  9 LGPAGVGKSTFCNSIITHMQSI 30
+                  8**************9998864 PP
+
+>> XP_002770450.1  DEHA2E09284p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.1     0.001     0.079       3      28 ..     398     423 ..     396     431 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.001
+    PF00005_seed   3 nvslklkegekvaivGenGaGKStLl 28 
+                     n+  ++ e+++++++Ge+G+GK+t l
+  XP_002770450.1 398 NLLRTIAENQVTVVIGETGSGKTTQL 423
+                     55668999***************955 PP
+
+>> XP_460840.2  DEHA2F10934p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   1.4   0.00045     0.035       2      50 ..      10      54 ..       9     216 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00045
+  PF00005_seed  2 knvslklkegekvaivGenGaGKStLlkllagllkpteGeilldgkdlk 50
+                  kn+ ++  +  +v ivG +G GKS        l k  +Gei ++ ++++
+   XP_460840.2 10 KNLMMTTPKKNIVTIVGTTGVGKSQFSIE---LAKAINGEI-INADSMQ 54
+                  899999******************75433...333345666.3333333 PP
+
+>> XP_002770131.1  DEHA2B15136p [Debaryomyces hansenii CBS767]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0    0.0024      0.19      15      33 ..      29      47 ..      25     144 .. 0.85
+   2 ?   -1.0   0.4       9.8   7.7e+02      52     105 ..     205     263 ..     160     293 .. 0.53
+   3 ?    4.2   3.2      0.23        18      33     126 ..     303     389 ..     289     394 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.0024
+    PF00005_seed 15 aivGenGaGKStLlkllag 33
+                    ai G nG+GKS +l +++ 
+  XP_002770131.1 29 AITGLNGSGKSNILDAICF 47
+                    8***************985 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 9.8
+    PF00005_seed  52 qeleslrkeigvlpqepqlfpeltvrenlrleallqalddeesdee......iekalskl 105
+                      +le+lr+e +++ + +q++ +l+  +++  +a+ +al++++ de+       e+++++l
+  XP_002770131.1 205 PKLEKLRNEKRTFLEFQQIQTDLEKMSRII-AAHDYALYSKKFDEHstmlneRETIMANL 263
+                     355566666666666666666665444442.33334444444333333333344444444 PP
+
+  == domain 3  score: 4.2 bits;  conditional E-value: 0.23
+    PF00005_seed  33 gllkpteGeilld..gkdlkeqeleslrkeigvlpqe.pqlfpeltvrenlrleallqalddeesdeeiekalsklglkeladtvvksspssLSg 124
+                      l+++ ++ei+    +kd+  ++++s +k++ +l+q+ +q+++ +++   ++        ++e++ + +++al++l+++  +++ +    s+LS 
+  XP_002770131.1 303 ALENQYSDEITRLntSKDIIVENIKSESKKLTKLEQQvAQIQQAIENNADIY-------SNHEKQYKNAKEALAELKNEFNRKEEL---LSTLST 387
+                     455555666644413444444999999********99666666665555552.......233444445788888888888666655...689998 PP
+
+    PF00005_seed 125 Gq 126
+                     G 
+  XP_002770131.1 388 GV 389
+                     85 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (150 nodes)
+Target sequences:                         6286  (3006158 residues searched)
+Passed MSV filter:                       519  (0.0825644); expected 125.7 (0.02)
+Passed bias filter:                      356  (0.0566338); expected 125.7 (0.02)
+Passed Vit filter:                       167  (0.026567); expected 6.3 (0.001)
+Passed Fwd filter:                        83  (0.0132039); expected 0.1 (1e-05)
+Initial search space (Z):               6286  [actual number of targets]
+Domain search space  (domZ):              80  [number of targets reported over threshold]
+# CPU time: 2.26u 0.69s 00:00:02.95 Elapsed: 00:00:03.84
+# Mc/sec: 117.43
+//
+[ok]
